@@ -1,3 +1,4 @@
+data:
 - invalid: 149587
   invalid_percent: 66.49
   invalid_sample:
@@ -80,6 +81,7 @@
   pattern: ^PR:P?\d+$
   prefix: pr
   total: 224963
+  version: null
 - invalid: 110242
   invalid_percent: 100.0
   invalid_sample:
@@ -162,6 +164,7 @@
   pattern: ^SMP\d+$
   prefix: pathbank
   total: 110242
+  version: null
 - invalid: 4320
   invalid_percent: 100.0
   invalid_sample:
@@ -244,6 +247,7 @@
   pattern: ^HGVPM\d+$
   prefix: gwascentral.phenotype
   total: 4320
+  version: null
 - invalid: 51
   invalid_percent: 0.73
   invalid_sample:
@@ -302,6 +306,7 @@
   pattern: ^\d{1,2}(\.\d{0,3}){0,3}$
   prefix: eccode
   total: 6982
+  version: null
 - invalid: 41
   invalid_percent: 2.81
   invalid_sample:
@@ -350,6 +355,7 @@
   pattern: ^\d{7}$
   prefix: idomal
   total: 1457
+  version: '2015-03-16'
 - invalid: 34
   invalid_percent: 0.0
   invalid_sample:
@@ -391,6 +397,7 @@
   pattern: ^\d+$
   prefix: ncbitaxon
   total: 2308106
+  version: '2021-02-15'
 - invalid: 5
   invalid_percent: 100.0
   invalid_sample:
@@ -403,6 +410,7 @@
   pattern: ^RO_\d{7}$
   prefix: ro
   total: 5
+  version: '2021-03-08'
 - invalid: 2
   invalid_percent: 0.11
   invalid_sample:
@@ -412,6 +420,7 @@
   pattern: ECO:\d{7}$
   prefix: eco
   total: 1788
+  version: '2021-05-07'
 - invalid: 1
   invalid_percent: 0.75
   invalid_sample:
@@ -420,6 +429,7 @@
   pattern: ^\d{7}$
   prefix: aeo
   total: 133
+  version: '2014-12-05'
 - invalid: 1
   invalid_percent: 0.03
   invalid_sample:
@@ -428,6 +438,7 @@
   pattern: ^\d{7}$
   prefix: obi
   total: 2927
+  version: '2021-04-06'
 - invalid: 1
   invalid_percent: 0.0
   invalid_sample:
@@ -437,6 +448,7 @@
     0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$
   prefix: uniprot
   total: 564639
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -444,6 +456,7 @@
   pattern: ^\d{7}$
   prefix: apo
   total: 309
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -451,6 +464,7 @@
   pattern: ^\d{7}$
   prefix: bspo
   total: 139
+  version: '2020-05-11'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -458,6 +472,7 @@
   pattern: ^\d{7}$
   prefix: ceph
   total: 321
+  version: '2016-01-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -465,6 +480,7 @@
   pattern: ^CHEBI:\d+$
   prefix: chebi
   total: 18
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -472,6 +488,7 @@
   pattern: ^CHEMBL\d+$
   prefix: chembl.compound
   total: 41049
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -479,6 +496,7 @@
   pattern: ^CL:\d{7}$
   prefix: cl
   total: 2311
+  version: '2021-04-22'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -486,6 +504,7 @@
   pattern: ^\d{7}$
   prefix: cmo
   total: 3629
+  version: '2019-02-19'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -493,6 +512,7 @@
   pattern: ^CPX-[0-9]+$
   prefix: complexportal
   total: 3389
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -500,6 +520,7 @@
   pattern: ^CONSO\d{5}$
   prefix: conso
   total: 368
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -507,6 +528,7 @@
   pattern: ^\d{7}$
   prefix: cro
   total: 81
+  version: '2019-12-11'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -514,6 +536,7 @@
   pattern: ^\d{7}$
   prefix: cteno
   total: 151
+  version: '2016-10-19'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -521,6 +544,7 @@
   pattern: ^\d{7}$
   prefix: ddanat
   total: 131
+  version: '2020-04-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -528,6 +552,7 @@
   pattern: ^\d{7}$
   prefix: ddpheno
   total: 982
+  version: '2020-06-19'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -535,6 +560,7 @@
   pattern: ^DOID:\d+$
   prefix: doid
   total: 10727
+  version: '2021-04-29'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -542,6 +568,7 @@
   pattern: ^DB\d{5}$
   prefix: drugbank
   total: 14315
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -549,6 +576,7 @@
   pattern: ^DBSALT\d{6}$
   prefix: drugbank.salt
   total: 2505
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -556,6 +584,7 @@
   pattern: ^\d{7}$
   prefix: efo
   total: 9875
+  version: 3.30.0
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -563,6 +592,7 @@
   pattern: ^\d{7}$
   prefix: exo
   total: 149
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -570,6 +600,7 @@
   pattern: ^\d+$
   prefix: fbbi
   total: 1
+  version: '2020-11-06'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -577,6 +608,7 @@
   pattern: ^\d{7}$
   prefix: fbcv
   total: 1094
+  version: '2021-05-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -584,6 +616,7 @@
   pattern: ^\d{7}$
   prefix: fix
   total: 1163
+  version: '2020-04-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -591,6 +624,7 @@
   pattern: ^FMA:\d+$
   prefix: fma
   total: 78977
+  version: '2020-04-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -598,6 +632,7 @@
   pattern: ^[a-zA-Z0-9][A-Za-z0-9_]+$
   prefix: fplx
   total: 705
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -605,6 +640,7 @@
   pattern: ^\d{7}$
   prefix: fypo
   total: 7391
+  version: '2021-05-20'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -612,6 +648,7 @@
   pattern: ^\d{7}$
   prefix: geno
   total: 218
+  version: '2020-03-08'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -619,6 +656,7 @@
   pattern: ^GO:\d{7}$
   prefix: go
   total: 44085
+  version: '2021-05-01'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -626,6 +664,7 @@
   pattern: ^HGVST\d+$
   prefix: gwascentral.study
   total: 4320
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -633,6 +672,7 @@
   pattern: ^((HGNC|hgnc):)?\d{1,5}$
   prefix: hgnc
   total: 42514
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -640,6 +680,7 @@
   pattern: ^\d+$
   prefix: hgnc.genefamily
   total: 1569
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -647,6 +688,7 @@
   pattern: ^HP:\d{7}$
   prefix: hp
   total: 15816
+  version: '2021-04-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -654,6 +696,7 @@
   pattern: ^\d{7}$
   prefix: hsapdv
   total: 238
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -661,6 +704,7 @@
   pattern: ^\d+$
   prefix: itis
   total: 856953
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -668,6 +712,7 @@
   pattern: ^(C|D)\d{6,9}$
   prefix: mesh
   total: 300093
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -675,6 +720,7 @@
   pattern: ^MGI:\d+$
   prefix: mgi
   total: 304226
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -682,6 +728,7 @@
   pattern: ^MI:\d{4}$
   prefix: mi
   total: 1435
+  version: '2020-04-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -689,6 +736,7 @@
   pattern: MI\d{7}
   prefix: mirbase
   total: 38589
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -696,6 +744,7 @@
   pattern: MIMAT\d{7}
   prefix: mirbase.mature
   total: 49168
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -703,6 +752,7 @@
   pattern: ^\d{8}$
   prefix: miro
   total: 4340
+  version: '2014-05-14'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -710,6 +760,7 @@
   pattern: ^\d{7}$
   prefix: mmo
   total: 743
+  version: '2019-03-27'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -717,6 +768,7 @@
   pattern: ^\d{7}$
   prefix: mmusdv
   total: 134
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -724,6 +776,7 @@
   pattern: ^MOD:\d{5}
   prefix: mod
   total: 1978
+  version: '2020-04-14'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -731,6 +784,7 @@
   pattern: ^\d{7}$
   prefix: mondo
   total: 22294
+  version: '2021-04-30'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -738,6 +792,7 @@
   pattern: ^\d{7}$
   prefix: mop
   total: 3579
+  version: '2014-09-03'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -745,6 +800,7 @@
   pattern: ^\d+$
   prefix: mpath
   total: 841
+  version: '2020-05-19'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -752,6 +808,7 @@
   pattern: ^MS:\d{7}$
   prefix: ms
   total: 2742
+  version: '2019-11-21'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -759,6 +816,7 @@
   pattern: ^\d{7}$
   prefix: nbo
   total: 928
+  version: '2021-02-15'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -766,6 +824,7 @@
   pattern: ^C\d+$
   prefix: ncit
   total: 158568
+  version: 21.01d
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -773,6 +832,7 @@
   pattern: ^\d{7}$
   prefix: olatdv
   total: 47
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -780,6 +840,7 @@
   pattern: ^\d{7}$
   prefix: omit
   total: 89
+  version: '2019-06-07'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -787,6 +848,7 @@
   pattern: ^\d{7}$
   prefix: omp
   total: 1997
+  version: '2021-05-07'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -794,6 +856,7 @@
   pattern: ^\d{7}$
   prefix: pdumdv
   total: 21
+  version: '2020-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -801,6 +864,7 @@
   pattern: ^(P)?EO\:\d{7}$
   prefix: peco
   total: 550
+  version: '2020-08-21'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -808,6 +872,7 @@
   pattern: ^PF\d{5}$
   prefix: pfam
   total: 19179
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -815,6 +880,7 @@
   pattern: ^\b[0-9a-f]{8}\b-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-\b[0-9a-f]{12}\b$
   prefix: pid.pathway
   total: 211
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -822,6 +888,7 @@
   pattern: ^PW:\d{7}$
   prefix: pw
   total: 2600
+  version: '2019-10-23'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -829,6 +896,7 @@
   pattern: (^R-[A-Z]{3}-\d+(-\d+)?(\.\d+)?$)|(^REACT_\d+(\.\d+)?$)
   prefix: reactome
   total: 20567
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -836,6 +904,7 @@
   pattern: ^\d{4,}$
   prefix: rgd
   total: 65147
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -843,6 +912,7 @@
   pattern: ^\d{5}$
   prefix: rhea
   total: 13528
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -850,6 +920,7 @@
   pattern: ^\d{7}$
   prefix: rs
   total: 4835
+  version: '2019-12-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -857,6 +928,7 @@
   pattern: ^\d{7}$
   prefix: rxno
   total: 614
+  version: '2021-01-21'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -864,6 +936,7 @@
   pattern: ^SBO:\d{7}$
   prefix: sbo
   total: 651
+  version: '2021-04-21'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -871,6 +944,7 @@
   pattern: ^((S\d+$)|(Y[A-Z]{2}\d{3}[a-zA-Z](\-[A-Z])?))$
   prefix: sgd
   total: 6600
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -878,6 +952,7 @@
   pattern: ^SO:\d{7}$
   prefix: so
   total: 2339
+  version: '2021-04-27'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -885,6 +960,7 @@
   pattern: ^\d{7}$
   prefix: spd
   total: 757
+  version: '2019-02-27'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -892,6 +968,7 @@
   pattern: ^\d{7}$
   prefix: symp
   total: 847
+  version: '2020-08-04'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -899,6 +976,7 @@
   pattern: ^\d{7}$
   prefix: tads
   total: 628
+  version: '2015-08-20'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -906,6 +984,7 @@
   pattern: ^\d{7}$
   prefix: tgma
   total: 1864
+  version: '2013-06-03'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -913,6 +992,7 @@
   pattern: ^\d{7}$
   prefix: trans
   total: 25
+  version: '2020-08-04'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -920,6 +1000,7 @@
   pattern: ^UBERON:\d+$
   prefix: uberon
   total: 14084
+  version: '2021-02-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -927,6 +1008,7 @@
   pattern: ^C\d+$
   prefix: umls
   total: 4412440
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -934,6 +1016,7 @@
   pattern: ^(UCR|UCY|UER|ULS|UPA|UPC|UPX)\d{5}$
   prefix: upa
   total: 4659
+  version: '2018-12-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -941,6 +1024,7 @@
   pattern: ^\d+$
   prefix: vario
   total: 495
+  version: '2018-11-09'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -948,6 +1032,7 @@
   pattern: WP\d{1,5}(\_r\d+)?$
   prefix: wikipathways
   total: 1741
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -955,6 +1040,7 @@
   pattern: ^\d{7}$
   prefix: xao
   total: 1720
+  version: '2021-03-04'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -962,6 +1048,7 @@
   pattern: ^\d{7}$
   prefix: xco
   total: 816
+  version: '2019-12-18'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -969,6 +1056,7 @@
   pattern: ^\d{5}$
   prefix: xlmod
   total: 1101
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -976,6 +1064,7 @@
   pattern: ^\d{7}$
   prefix: zeco
   total: 161
+  version: '2020-11-30'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -983,6 +1072,7 @@
   pattern: ^\d{7}$
   prefix: zfa
   total: 3079
+  version: '2020-03-18'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -990,3 +1080,7 @@
   pattern: ^\d{7}$
   prefix: zfs
   total: 54
+  version: '2020-03-10'
+metadata:
+  date: '2021-05-25T10:48:37.096197'
+  pyobo_version: 0.4.0-UNHASHED

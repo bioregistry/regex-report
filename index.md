@@ -8,6 +8,7 @@ Generated at https://github.com/bioregistry/regex-report using the Bioregistry a
 <tr>
     <th>Prefix</th>
     <th>Name</th>
+    <th>Version</th>
     <th>Pattern</th>
     <th>Invalid</th>
     <th>Total</th>
@@ -15,10 +16,11 @@ Generated at https://github.com/bioregistry/regex-report using the Bioregistry a
 </tr>
 </thead>
 <tbody>
-{% for entry in site.data.report %}
+{% for entry in site.data.report.data %}
     <tr>
         <td>{{ entry.prefix }}</td>
         <td><a href="https://bioregistry.io/{{ entry.prefix }}">{{ entry.name }}</a></td>
+        <td>{{ entry.version }}</td>
         <td><kbd>{{ entry.pattern }}</kbd></td>
         <td align="right">{{ entry.invalid }}</td>
         <td align="right">{{ entry.total }}</td>

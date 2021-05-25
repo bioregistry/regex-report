@@ -2,6 +2,7 @@
 
 """Build the regex report."""
 
+import datetime
 import pathlib
 from typing import List, Tuple, Union
 
@@ -14,6 +15,7 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 
 import bioregistry
 import pyobo
+from bioregistry.version import VERSION as BIOREGISTRY_VERSION
 
 HERE = pathlib.Path(__file__).parent.resolve()
 DATA = HERE.joinpath('_data')
@@ -54,18 +56,26 @@ def main():
     df.to_csv(DATA / 'report_table.tsv', sep='\t', index=False)
 
     with DATA.joinpath('report.yml').open('w') as file:
-        yaml.safe_dump(stream=file, data=[
-            dict(
-                prefix=prefix,
-                name=bioregistry.get_name(prefix),
-                pattern=bioregistry.get_pattern(prefix),
-                invalid=len(invalid),
-                invalid_percent=round(100 * len(invalid) / total, 2),
-                total=total,
-                invalid_sample=invalid[:75],
-            )
-            for prefix, invalid, total in data
-        ])
+        yaml.safe_dump(stream=file, data=dict(
+            metadata=dict(
+                date=datetime.datetime.now().isoformat(),
+                pyobo_version=pyobo.get_version(with_git_hash=True),
+                bioregistry_version=BIOREGISTRY_VERSION,
+            ),
+            data=[
+                dict(
+                    prefix=prefix,
+                    name=bioregistry.get_name(prefix),
+                    version=bioregistry.get_version(prefix),
+                    pattern=bioregistry.get_pattern(prefix),
+                    invalid=len(invalid),
+                    invalid_percent=round(100 * len(invalid) / total, 2),
+                    total=total,
+                    invalid_sample=invalid[:75],
+                )
+                for prefix, invalid, total in data
+            ],
+        ))
 
 
 def calculate(prefix: str) -> Union[Tuple[List[str], int], Tuple[None, None]]:
