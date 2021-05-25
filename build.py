@@ -60,7 +60,7 @@ def main():
                 name=bioregistry.get_name(prefix),
                 pattern=bioregistry.get_pattern(prefix),
                 invalid=len(invalid),
-                invalid_percent=len(invalid) / total,
+                invalid_percent=round(100 * len(invalid) / total, 2),
                 total=total,
                 invalid_sample=invalid[:75],
             )

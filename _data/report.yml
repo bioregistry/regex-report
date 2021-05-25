@@ -1,5 +1,5 @@
 - invalid: 149587
-  invalid_percent: 0.6649404568751306
+  invalid_percent: 66.49
   invalid_sample:
   - A0A023PYF4
   - A0A023PZB3
@@ -81,7 +81,7 @@
   prefix: pr
   total: 224963
 - invalid: 110242
-  invalid_percent: 1.0
+  invalid_percent: 100.0
   invalid_sample:
   - PW000001
   - PW000002
@@ -163,7 +163,7 @@
   prefix: pathbank
   total: 110242
 - invalid: 4320
-  invalid_percent: 1.0
+  invalid_percent: 100.0
   invalid_sample:
   - HGVST1
   - HGVST10
@@ -245,7 +245,7 @@
   prefix: gwascentral.phenotype
   total: 4320
 - invalid: 51
-  invalid_percent: 0.0073044972787167
+  invalid_percent: 0.73
   invalid_sample:
   - 1.1.1.n11
   - 1.1.1.n12
@@ -303,7 +303,7 @@
   prefix: eccode
   total: 6982
 - invalid: 41
-  invalid_percent: 0.028140013726835965
+  invalid_percent: 2.81
   invalid_sample:
   - '50000004'
   - '50000005'
@@ -351,7 +351,7 @@
   prefix: idomal
   total: 1457
 - invalid: 34
-  invalid_percent: 1.4730692611171237e-05
+  invalid_percent: 0.0
   invalid_sample:
   - class
   - cohort
@@ -392,7 +392,7 @@
   prefix: ncbitaxon
   total: 2308106
 - invalid: 5
-  invalid_percent: 1.0
+  invalid_percent: 100.0
   invalid_sample:
   - '0002310'
   - '0002532'
@@ -404,7 +404,7 @@
   prefix: ro
   total: 5
 - invalid: 2
-  invalid_percent: 0.0011185682326621924
+  invalid_percent: 0.11
   invalid_sample:
   - '000156'
   - '000157'
@@ -413,7 +413,7 @@
   prefix: eco
   total: 1788
 - invalid: 1
-  invalid_percent: 0.007518796992481203
+  invalid_percent: 0.75
   invalid_sample:
   - 0000119f
   name: Anatomical Entity Ontology
@@ -421,7 +421,7 @@
   prefix: aeo
   total: 133
 - invalid: 1
-  invalid_percent: 0.00034164673727365904
+  invalid_percent: 0.03
   invalid_sample:
   - 00001975
   name: Ontology for Biomedical Investigations
@@ -429,7 +429,7 @@
   prefix: obi
   total: 2927
 - invalid: 1
-  invalid_percent: 1.7710430912494531e-06
+  invalid_percent: 0.0
   invalid_sample:
   - Entry
   name: Universal Protein Knowledgebase

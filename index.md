@@ -18,11 +18,11 @@ Generated at https://github.com/bioregistry/regex-report using the Bioregistry a
 {% for entry in site.data.report %}
     <tr>
         <td>{{ entry.prefix }}</td>
-        <td>{{ entry.name }}</td>
+        <td><a href="https://bioregistry.io/{{ entry.prefix }}">{{ entry.name }}</a></td>
         <td><kbd>{{ entry.pattern }}</kbd></td>
-        <td>{{ entry.invalid }}</td>
-        <td>{{ entry.total }}</td>
-        <td>{{ entry.invalid_percent }}</td>
+        <td align="right">{{ entry.invalid }}</td>
+        <td align="right">{{ entry.total }}</td>
+        <td align="right">{{ entry.invalid_percent }}%</td>
     </tr>
 {% endfor %}
 </tbody>
