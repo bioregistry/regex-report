@@ -1,0 +1,8 @@
+bioregistry
+pyobo
+pandas
+tqdm
+click
+pystow
+more_click
+pyyaml
