@@ -51,7 +51,7 @@ def main():
         (prefix, len(invalid), total)
         for prefix, invalid, total in data
     ])
-    df.to_csv(DATA / 'report.tsv', sep='\t', index=False)
+    df.to_csv(DATA / 'report_table.tsv', sep='\t', index=False)
 
     with DATA.joinpath('report.yml').open('w') as file:
         yaml.safe_dump(stream=file, data=[
