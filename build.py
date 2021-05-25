@@ -3,7 +3,7 @@
 """Build the regex report."""
 
 import pathlib
-from typing import Tuple, Union
+from typing import List, Tuple, Union
 
 import click
 import pandas as pd
@@ -55,12 +55,20 @@ def main():
 
     with DATA.joinpath('report.yml').open('w') as file:
         yaml.safe_dump(stream=file, data=[
-            dict(prefix=prefix, invalid=len(invalid), total=total, invalid_sample=invalid[:75])
+            dict(
+                prefix=prefix,
+                name=bioregistry.get_name(prefix),
+                pattern=bioregistry.get_pattern(prefix),
+                invalid=len(invalid),
+                invalid_percent=len(invalid) / total,
+                total=total,
+                invalid_sample=invalid[:75],
+            )
             for prefix, invalid, total in data
         ])
 
 
-def calculate(prefix: str) -> Union[Tuple[int, int], Tuple[None, None]]:
+def calculate(prefix: str) -> Union[Tuple[List[str], int], Tuple[None, None]]:
     """Calculate the inconsistency for the given prefix."""
     pattern = bioregistry.get_pattern(prefix)
     if not pattern:
