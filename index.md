@@ -16,7 +16,7 @@ Bioregistry and PyOBO.
 </thead>
 <tbody>
 {% for entry in site.data.report %}
-    {% if 0 < entry.invalid %}
+    {% if entry.invalid %}
         <tr>
             <td>{{ entry.prefix }}</td>
             <td>{{ entry.name }}</td>
