@@ -1,4 +1,87 @@
 data:
+- invalid: 2308106
+  invalid_percent: 100.0
+  invalid_sample:
+  - '1'
+  - '10'
+  - '100'
+  - '100000'
+  - '1000000'
+  - '1000001'
+  - '1000002'
+  - '1000003'
+  - '1000004'
+  - '1000005'
+  - '1000006'
+  - '1000007'
+  - '1000008'
+  - '1000009'
+  - '100001'
+  - '1000010'
+  - '1000011'
+  - '1000012'
+  - '1000013'
+  - '1000014'
+  - '1000015'
+  - '1000016'
+  - '1000017'
+  - '1000018'
+  - '1000019'
+  - '100002'
+  - '1000020'
+  - '1000021'
+  - '1000022'
+  - '1000023'
+  - '1000024'
+  - '1000025'
+  - '1000026'
+  - '1000027'
+  - '1000028'
+  - '1000029'
+  - '100003'
+  - '1000030'
+  - '1000031'
+  - '1000032'
+  - '1000033'
+  - '1000034'
+  - '100004'
+  - '100005'
+  - '100006'
+  - '100007'
+  - '100008'
+  - '100009'
+  - '10001'
+  - '100010'
+  - '100011'
+  - '100012'
+  - '100013'
+  - '100014'
+  - '100015'
+  - '100016'
+  - '100017'
+  - '100018'
+  - '100019'
+  - '10002'
+  - '100020'
+  - '100021'
+  - '100022'
+  - '100023'
+  - '100024'
+  - '100025'
+  - '100026'
+  - '100027'
+  - '1000273'
+  - '1000274'
+  - '1000275'
+  - '1000276'
+  - '1000277'
+  - '1000278'
+  - '1000279'
+  name: NCBI organismal classification
+  pattern: ^\d+$
+  prefix: ncbitaxon
+  total: 2308106
+  version: '2021-06-10'
 - invalid: 149587
   invalid_percent: 66.49
   invalid_sample:
@@ -165,6 +248,89 @@ data:
   prefix: pathbank
   total: 110242
   version: null
+- invalid: 90221
+  invalid_percent: 86.82
+  invalid_sample:
+  - G00001NT
+  - G00002CF
+  - G00002XH
+  - G00006SB
+  - G00008BG
+  - G00009BX
+  - G00010XO
+  - G00012JB
+  - G00012MO
+  - G00012RZ
+  - G00013MO
+  - G00014MO
+  - G00015MO
+  - G00016MO
+  - G00017MO
+  - G00018MO
+  - G00019MO
+  - G00019RN
+  - G00020MO
+  - G00021MO
+  - G00021YS
+  - G00022MO
+  - G00023EZ
+  - G00023LR
+  - G00023MO
+  - G00024MO
+  - G00025AJ
+  - G00025LQ
+  - G00025MO
+  - G00025YC
+  - G00026KW
+  - G00026MO
+  - G00027JG
+  - G00027MO
+  - G00027SX
+  - G00028MO
+  - G00028QS
+  - G00029MO
+  - G00029YH
+  - G00030HB
+  - G00030MO
+  - G00030VN
+  - G00031MO
+  - G00032AL
+  - G00032MO
+  - G00033MO
+  - G00034MO
+  - G00034ND
+  - G00034WH
+  - G00034WX
+  - G00034XP
+  - G00035MO
+  - G00035VF
+  - G00036MO
+  - G00037EO
+  - G00037MO
+  - G00038GA
+  - G00038MO
+  - G00038QS
+  - G00039MO
+  - G00040MO
+  - G00041IL
+  - G00041LS
+  - G00041MO
+  - G00042MO
+  - G00042ZF
+  - G00043MO
+  - G00044MO
+  - G00044ZG
+  - G00045MO
+  - G00046HK
+  - G00046MO
+  - G00047MO
+  - G00047ZG
+  - G00048MO
+  name: Glycan Naming and Subsumption Ontology (GNOme)
+  pattern: ^\d{8}$
+  prefix: gno
+  total: 103921
+  version: 1.7.2
 - invalid: 4320
   invalid_percent: 100.0
   invalid_sample:
@@ -248,65 +414,559 @@ data:
   prefix: gwascentral.phenotype
   total: 4320
   version: null
-- invalid: 51
-  invalid_percent: 0.73
+- invalid: 2610
+  invalid_percent: 100.0
   invalid_sample:
-  - 1.1.1.n11
-  - 1.1.1.n12
-  - 1.1.1.n4
-  - 1.1.1.n5
-  - 1.1.5.n1
-  - 1.14.11.n2
-  - 1.14.11.n4
-  - 1.14.13.n6
-  - 1.14.13.n7
-  - 1.14.19.n4
-  - 1.14.19.n5
-  - 1.14.99.n4
-  - 1.2.1.n2
-  - 1.3.1.n3
-  - 1.3.99.n1
-  - 1.6.99.n1
-  - 2.1.1.n1
-  - 2.1.1.n11
-  - 2.1.1.n4
-  - 2.1.1.n7
-  - 2.1.1.n8
-  - 2.3.1.n12
-  - 2.3.1.n4
-  - 2.3.1.n5
-  - 2.3.1.n6
-  - 2.3.1.n7
-  - 2.4.1.n2
-  - 2.4.2.n2
-  - 2.5.1.n9
-  - 2.7.7.n1
-  - 2.7.7.n6
-  - 2.7.8.n3
-  - 2.8.2.n2
-  - 3.1.1.n2
-  - 3.1.26.n2
-  - 3.2.1.n1
-  - 3.2.1.n2
-  - 3.2.1.n3
-  - 3.2.2.n1
-  - 3.5.1.n3
-  - 3.6.1.n1
-  - 3.6.1.n2
-  - 3.6.1.n3
-  - 3.6.5.n1
-  - 4.1.2.n2
-  - 4.2.2.n1
-  - 4.2.2.n2
-  - 4.2.3.n2
-  - 6.2.1.n2
-  - 6.2.1.n3
-  - 6.3.2.n3
-  name: Enzyme Nomenclature
-  pattern: ^\d{1,2}(\.\d{0,3}){0,3}$
-  prefix: eccode
-  total: 6982
-  version: null
+  - '0000000'
+  - '0000001'
+  - '0000002'
+  - '0000004'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - 0000009
+  - '0000010'
+  - '0000011'
+  - '0000012'
+  - '0000013'
+  - '0000014'
+  - '0000015'
+  - '0000016'
+  - '0000017'
+  - 0000018
+  - 0000019
+  - '0000020'
+  - '0000021'
+  - '0000022'
+  - '0000023'
+  - '0000024'
+  - '0000025'
+  - '0000026'
+  - '0000027'
+  - 0000028
+  - 0000029
+  - '0000030'
+  - '0000031'
+  - '0000032'
+  - '0000033'
+  - '0000034'
+  - '0000035'
+  - '0000036'
+  - '0000037'
+  - 0000038
+  - 0000039
+  - '0000040'
+  - '0000041'
+  - '0000042'
+  - '0000043'
+  - '0000044'
+  - '0000045'
+  - '0000046'
+  - '0000047'
+  - 0000048
+  - 0000049
+  - '0000050'
+  - '0000051'
+  - '0000052'
+  - '0000053'
+  - '0000054'
+  - '0000055'
+  - '0000056'
+  - '0000057'
+  - 0000058
+  - 0000059
+  - '0000060'
+  - '0000061'
+  - '0000062'
+  - '0000063'
+  - '0000064'
+  - '0000065'
+  - '0000066'
+  - '0000067'
+  - 0000068
+  - 0000069
+  - '0000070'
+  - '0000071'
+  - '0000072'
+  - '0000073'
+  - '0000074'
+  - '0000075'
+  name: C. elegans phenotype
+  pattern: ^\d{7}$
+  prefix: wbphenotype
+  total: 2610
+  version: '2021-07-06'
+- invalid: 1094
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000000'
+  - '0000002'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - '0000013'
+  - '0000014'
+  - 0000038
+  - 0000039
+  - '0000040'
+  - '0000041'
+  - '0000045'
+  - '0000046'
+  - '0000047'
+  - 0000048
+  - 0000049
+  - '0000050'
+  - '0000051'
+  - '0000052'
+  - '0000053'
+  - '0000054'
+  - '0000055'
+  - '0000056'
+  - 0000058
+  - 0000059
+  - '0000060'
+  - '0000061'
+  - '0000063'
+  - '0000064'
+  - '0000065'
+  - '0000066'
+  - '0000067'
+  - 0000068
+  - 0000069
+  - '0000070'
+  - '0000071'
+  - '0000074'
+  - '0000075'
+  - '0000076'
+  - '0000077'
+  - 0000078
+  - 0000079
+  - 0000080
+  - 0000081
+  - 0000082
+  - 0000083
+  - 0000084
+  - 0000085
+  - 0000086
+  - 0000087
+  - 0000088
+  - 0000089
+  - 0000090
+  - 0000091
+  - 0000092
+  - 0000093
+  - 0000094
+  - 0000095
+  - 0000096
+  - 0000097
+  - 0000098
+  - 0000099
+  - '0000100'
+  - '0000101'
+  - '0000102'
+  - '0000103'
+  - '0000104'
+  - '0000105'
+  - '0000106'
+  - '0000107'
+  - 0000108
+  - 0000109
+  - '0000110'
+  - '0000111'
+  name: FlyBase Controlled Vocabulary
+  pattern: ^\d{7}$
+  prefix: fbcv
+  total: 1094
+  version: '2021-07-15'
+- invalid: 774
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000001'
+  - '0000002'
+  - '0000003'
+  - '0000004'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - 0000009
+  - '0000010'
+  - '0000011'
+  - '0000012'
+  - '0000013'
+  - '0000014'
+  - '0000015'
+  - '0000016'
+  - '0000017'
+  - 0000018
+  - 0000019
+  - '0000020'
+  - '0000021'
+  - '0000022'
+  - '0000023'
+  - '0000024'
+  - '0000025'
+  - '0000026'
+  - '0000027'
+  - 0000028
+  - 0000029
+  - '0000030'
+  - '0000031'
+  - '0000032'
+  - '0000033'
+  - '0000034'
+  - '0000035'
+  - '0000036'
+  - '0000037'
+  - 0000038
+  - 0000039
+  - '0000040'
+  - '0000041'
+  - '0000042'
+  - '0000043'
+  - '0000044'
+  - '0000045'
+  - '0000046'
+  - '0000047'
+  - 0000048
+  - 0000049
+  - '0000050'
+  - '0000051'
+  - '0000052'
+  - '0000053'
+  - '0000054'
+  - '0000055'
+  - '0000056'
+  - '0000057'
+  - 0000058
+  - 0000059
+  - '0000060'
+  - '0000061'
+  - '0000062'
+  - '0000063'
+  - '0000064'
+  - '0000065'
+  - '0000066'
+  - '0000067'
+  - 0000068
+  - 0000069
+  - '0000070'
+  - '0000071'
+  - '0000072'
+  - '0000073'
+  - '0000074'
+  - '0000075'
+  name: C. elegans development ontology
+  pattern: ^\d{7}$
+  prefix: wbls
+  total: 774
+  version: '2021-07-06'
+- invalid: 238
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000000'
+  - '0000001'
+  - '0000002'
+  - '0000003'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - 0000009
+  - '0000010'
+  - '0000011'
+  - '0000012'
+  - '0000013'
+  - '0000014'
+  - '0000015'
+  - '0000016'
+  - '0000017'
+  - 0000018
+  - 0000019
+  - '0000020'
+  - '0000021'
+  - '0000022'
+  - '0000023'
+  - '0000024'
+  - '0000025'
+  - '0000026'
+  - '0000027'
+  - 0000028
+  - 0000029
+  - '0000030'
+  - '0000031'
+  - '0000032'
+  - '0000033'
+  - '0000034'
+  - '0000035'
+  - '0000037'
+  - '0000045'
+  - '0000046'
+  - '0000047'
+  - 0000048
+  - 0000049
+  - '0000050'
+  - '0000051'
+  - '0000052'
+  - '0000053'
+  - '0000054'
+  - '0000055'
+  - '0000056'
+  - '0000057'
+  - 0000058
+  - 0000059
+  - '0000060'
+  - '0000061'
+  - '0000062'
+  - '0000063'
+  - '0000064'
+  - '0000065'
+  - '0000066'
+  - '0000067'
+  - 0000068
+  - 0000069
+  - '0000070'
+  - '0000071'
+  - '0000072'
+  - '0000073'
+  - '0000074'
+  - '0000075'
+  - 0000095
+  - 0000096
+  - 0000097
+  - 0000098
+  - 0000099
+  - '0000100'
+  - '0000101'
+  - '0000102'
+  name: Human Developmental Stages
+  pattern: ^\d{7}$
+  prefix: hsapdv
+  total: 238
+  version: '2020-03-10'
+- invalid: 149
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000000'
+  - '0000001'
+  - '0000002'
+  - '0000003'
+  - '0000004'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - 0000009
+  - '0000010'
+  - '0000011'
+  - '0000012'
+  - '0000013'
+  - '0000014'
+  - '0000015'
+  - '0000016'
+  - '0000017'
+  - 0000018
+  - 0000019
+  - '0000020'
+  - '0000021'
+  - '0000023'
+  - '0000024'
+  - '0000025'
+  - '0000026'
+  - 0000028
+  - 0000029
+  - '0000030'
+  - '0000031'
+  - '0000033'
+  - '0000034'
+  - '0000035'
+  - '0000037'
+  - 0000038
+  - 0000039
+  - '0000040'
+  - '0000041'
+  - '0000042'
+  - '0000043'
+  - '0000044'
+  - '0000045'
+  - '0000046'
+  - '0000047'
+  - 0000048
+  - '0000050'
+  - '0000051'
+  - '0000052'
+  - '0000053'
+  - '0000054'
+  - '0000055'
+  - '0000056'
+  - '0000057'
+  - 0000058
+  - 0000059
+  - '0000060'
+  - '0000061'
+  - '0000062'
+  - '0000063'
+  - '0000064'
+  - '0000065'
+  - '0000066'
+  - '0000067'
+  - '0000070'
+  - '0000071'
+  - '0000072'
+  - '0000073'
+  - '0000074'
+  - '0000075'
+  - '0000076'
+  - '0000077'
+  - 0000078
+  - 0000079
+  - 0000080
+  - 0000082
+  name: Exposure ontology
+  pattern: ^\d{7}$
+  prefix: exo
+  total: 149
+  version: '2020-03-10'
+- invalid: 134
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000000'
+  - '0000001'
+  - '0000002'
+  - '0000003'
+  - '0000004'
+  - '0000005'
+  - '0000006'
+  - '0000007'
+  - 0000008
+  - 0000009
+  - '0000010'
+  - '0000011'
+  - '0000012'
+  - '0000013'
+  - '0000014'
+  - '0000015'
+  - '0000017'
+  - 0000018
+  - 0000019
+  - '0000020'
+  - '0000021'
+  - '0000022'
+  - '0000023'
+  - '0000024'
+  - '0000025'
+  - '0000026'
+  - '0000027'
+  - 0000028
+  - 0000029
+  - '0000031'
+  - '0000032'
+  - '0000033'
+  - '0000034'
+  - '0000035'
+  - '0000036'
+  - '0000042'
+  - '0000043'
+  - '0000062'
+  - '0000063'
+  - '0000064'
+  - 0000069
+  - '0000077'
+  - 0000078
+  - 0000079
+  - 0000080
+  - 0000081
+  - 0000082
+  - 0000083
+  - 0000084
+  - 0000085
+  - 0000086
+  - 0000087
+  - 0000088
+  - 0000089
+  - 0000090
+  - 0000091
+  - 0000092
+  - 0000093
+  - 0000094
+  - 0000095
+  - '0000103'
+  - '0000104'
+  - '0000105'
+  - '0000106'
+  - '0000107'
+  - 0000108
+  - 0000109
+  - '0000110'
+  - '0000111'
+  - '0000114'
+  - '0000115'
+  - '0000116'
+  - '0000117'
+  - 0000118
+  - 0000119
+  name: Mouse Developmental Stages
+  pattern: ^\d{7}$
+  prefix: mmusdv
+  total: 134
+  version: '2020-03-10'
+- invalid: 47
+  invalid_percent: 100.0
+  invalid_sample:
+  - '0000010'
+  - '0000020'
+  - '0000030'
+  - '0000040'
+  - '0000050'
+  - '0000060'
+  - '0000070'
+  - 0000080
+  - 0000090
+  - '0000100'
+  - '0000110'
+  - '0000120'
+  - '0000130'
+  - '0000140'
+  - '0000150'
+  - '0000160'
+  - '0000170'
+  - 0000180
+  - 0000190
+  - '0000200'
+  - '0000210'
+  - '0000220'
+  - '0000230'
+  - '0000240'
+  - '0000250'
+  - '0000260'
+  - '0000270'
+  - 0000280
+  - 0000290
+  - '0000300'
+  - '0000310'
+  - '0000320'
+  - '0000330'
+  - '0000340'
+  - '0000350'
+  - '0000360'
+  - '0000370'
+  - 0000380
+  - 0000390
+  - '0000400'
+  - '0000410'
+  - '0000420'
+  - '0000430'
+  - '0000440'
+  - '0000450'
+  - '0000460'
+  - '0000470'
+  name: Medaka Developmental Stages
+  pattern: ^\d{7}$
+  prefix: olatdv
+  total: 47
+  version: '2020-03-10'
 - invalid: 41
   invalid_percent: 2.81
   invalid_sample:
@@ -356,48 +1016,35 @@ data:
   prefix: idomal
   total: 1457
   version: '2015-03-16'
-- invalid: 34
-  invalid_percent: 0.0
+- invalid: 21
+  invalid_percent: 100.0
   invalid_sample:
-  - class
-  - cohort
-  - family
-  - forma
-  - genus
-  - infraclass
-  - infraorder
-  - kingdom
-  - order
-  - parvorder
-  - phylum
-  - section
-  - series
-  - species
-  - species_group
-  - species_subgroup
-  - subclass
-  - subcohort
-  - subfamily
-  - subgenus
-  - subkingdom
-  - suborder
-  - subphylum
-  - subsection
-  - subspecies
-  - subtribe
-  - superclass
-  - superfamily
-  - superkingdom
-  - superorder
-  - superphylum
-  - taxonomic_rank
-  - tribe
-  - varietas
-  name: NCBI organismal classification
-  pattern: ^\d+$
-  prefix: ncbitaxon
-  total: 2308106
-  version: '2021-02-15'
+  - 0000090
+  - '0000100'
+  - '0000200'
+  - '0000300'
+  - '0000400'
+  - '0000500'
+  - '0000600'
+  - '0000700'
+  - 0000800
+  - 0000900
+  - '0001000'
+  - '0001100'
+  - '0001200'
+  - '0001300'
+  - '0001410'
+  - '0001510'
+  - '0001520'
+  - '0001530'
+  - '0001540'
+  - '0001550'
+  - '0001600'
+  name: Platynereis Developmental Stages
+  pattern: ^\d{7}$
+  prefix: pdumdv
+  total: 21
+  version: '2020-03-10'
 - invalid: 5
   invalid_percent: 100.0
   invalid_sample:
@@ -410,7 +1057,7 @@ data:
   pattern: ^RO_\d{7}$
   prefix: ro
   total: 5
-  version: '2021-03-08'
+  version: '2021-06-23'
 - invalid: 2
   invalid_percent: 0.11
   invalid_sample:
@@ -420,7 +1067,7 @@ data:
   pattern: ECO:\d{7}$
   prefix: eco
   total: 1788
-  version: '2021-05-07'
+  version: '2021-07-02'
 - invalid: 1
   invalid_percent: 0.75
   invalid_sample:
@@ -431,6 +1078,15 @@ data:
   total: 133
   version: '2014-12-05'
 - invalid: 1
+  invalid_percent: 100.0
+  invalid_sample:
+  - '00000000'
+  name: Biological Imaging Methods Ontology
+  pattern: ^\d+$
+  prefix: fbbi
+  total: 1
+  version: '2020-11-06'
+- invalid: 1
   invalid_percent: 0.03
   invalid_sample:
   - 00001975
@@ -439,24 +1095,22 @@ data:
   prefix: obi
   total: 2927
   version: '2021-04-06'
-- invalid: 1
-  invalid_percent: 0.0
-  invalid_sample:
-  - Entry
-  name: Universal Protein Knowledgebase
-  pattern: ^([A-N,R-Z][0-9]([A-Z][A-Z, 0-9][A-Z, 0-9][0-9]){1,2})|([O,P,Q][0-9][A-Z,
-    0-9][A-Z, 0-9][A-Z, 0-9][0-9])(\.\d+)?$
-  prefix: uniprot
-  total: 564639
-  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Ascomycete phenotype ontology
+  name: Yeast phenotypes
   pattern: ^\d{7}$
   prefix: apo
   total: 309
   version: '2020-03-10'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Basic Formal Ontology
+  pattern: ^\d{7}$
+  prefix: bfo
+  total: 35
+  version: '2019-08-26'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -465,6 +1119,22 @@ data:
   prefix: bspo
   total: 139
   version: '2020-05-11'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: BRENDA tissue / enzyme source
+  pattern: ^BTO:\d{7}$
+  prefix: bto
+  total: 6464
+  version: '2021-04-27'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Cellosaurus ID
+  pattern: ^CVCL_[A-Z0-9]{4}$
+  prefix: cellosaurus
+  total: 128806
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -484,11 +1154,11 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: ChEMBL compound
-  pattern: ^CHEMBL\d+$
-  prefix: chembl.compound
-  total: 41049
-  version: null
+  name: Confidence Information Ontology
+  pattern: ^\d{7}$
+  prefix: cio
+  total: 44
+  version: '2015-03-10'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -496,7 +1166,7 @@ data:
   pattern: ^CL:\d{7}$
   prefix: cl
   total: 2311
-  version: '2021-04-22'
+  version: '2021-06-29'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -505,14 +1175,6 @@ data:
   prefix: cmo
   total: 3629
   version: '2019-02-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Complex Portal database of macromolecular complexes
-  pattern: ^CPX-[0-9]+$
-  prefix: complexportal
-  total: 3389
-  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -556,27 +1218,27 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
+  name: DepMap Cell Lines
+  pattern: ^ACH-\d+$
+  prefix: depmap
+  total: 1814
+  version: null
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
   name: Human Disease Ontology
   pattern: ^DOID:\d+$
   prefix: doid
   total: 10727
-  version: '2021-04-29'
+  version: '2021-06-08'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: DrugBank
-  pattern: ^DB\d{5}$
-  prefix: drugbank
-  total: 14315
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: DrugBank Salts
-  pattern: ^DBSALT\d{6}$
-  prefix: drugbank.salt
-  total: 2505
-  version: null
+  name: An ontology of core ecological entities
+  pattern: ^\d+$
+  prefix: ecocore
+  total: 177
+  version: '2021-02-17'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -584,31 +1246,23 @@ data:
   pattern: ^\d{7}$
   prefix: efo
   total: 9875
-  version: 3.30.0
+  version: 3.32.0
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Exposure ontology
-  pattern: ^\d{7}$
-  prefix: exo
-  total: 149
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Biological Imaging Methods Ontology
+  name: Mouse Developmental Anatomy Ontology
   pattern: ^\d+$
-  prefix: fbbi
-  total: 1
-  version: '2020-11-06'
+  prefix: emapa
+  total: 7845
+  version: '2020-02-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: FlyBase Controlled Vocabulary
+  name: Fungal gross anatomy
   pattern: ^\d{7}$
-  prefix: fbcv
-  total: 1094
-  version: '2021-05-12'
+  prefix: fao
+  total: 112
+  version: '2020-05-07'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -631,7 +1285,7 @@ data:
   name: FamPlex
   pattern: ^[a-zA-Z0-9][A-Za-z0-9_]+$
   prefix: fplx
-  total: 705
+  total: 721
   version: null
 - invalid: 0
   invalid_percent: 0.0
@@ -640,7 +1294,7 @@ data:
   pattern: ^\d{7}$
   prefix: fypo
   total: 7391
-  version: '2021-05-20'
+  version: '2021-07-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -656,7 +1310,15 @@ data:
   pattern: ^GO:\d{7}$
   prefix: go
   total: 44085
-  version: '2021-05-01'
+  version: '2021-07-02'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Gender, Sex, and Sexual Orientation (GSSO) ontology
+  pattern: ^GSSO:\d{6}$
+  prefix: gsso
+  total: 8654
+  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -676,8 +1338,8 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: HGNC gene family
-  pattern: ^\d+$
+  name: HGNC Family
+  pattern: ^[A-Z0-9-]+(#[A-Z0-9-]+)?$
   prefix: hgnc.genefamily
   total: 1569
   version: null
@@ -688,15 +1350,15 @@ data:
   pattern: ^HP:\d{7}$
   prefix: hp
   total: 15816
-  version: '2021-04-13'
+  version: '2021-06-13'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Human Developmental Stages
-  pattern: ^\d{7}$
-  prefix: hsapdv
-  total: 238
-  version: '2020-03-10'
+  name: Infectious Disease Ontology
+  pattern: ^[0-9]+$
+  prefix: ido
+  total: 253
+  version: '2017-11-03'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -704,14 +1366,6 @@ data:
   pattern: ^\d+$
   prefix: itis
   total: 856953
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Medical Subject Headings
-  pattern: ^(C|D)\d{6,9}$
-  prefix: mesh
-  total: 300093
   version: null
 - invalid: 0
   invalid_percent: 0.0
@@ -732,22 +1386,6 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: miRNA Database
-  pattern: MI\d{7}
-  prefix: mirbase
-  total: 38589
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: miRBase mature sequence
-  pattern: MIMAT\d{7}
-  prefix: mirbase.mature
-  total: 49168
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
   name: Mosquito insecticide resistance
   pattern: ^\d{8}$
   prefix: miro
@@ -764,14 +1402,6 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Mouse Developmental Stages
-  pattern: ^\d{7}$
-  prefix: mmusdv
-  total: 134
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
   name: Protein modification
   pattern: ^MOD:\d{5}
   prefix: mod
@@ -784,7 +1414,7 @@ data:
   pattern: ^\d{7}$
   prefix: mondo
   total: 22294
-  version: '2021-04-30'
+  version: '2021-07-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -793,6 +1423,14 @@ data:
   prefix: mop
   total: 3579
   version: '2014-09-03'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Mammalian Phenotype Ontology
+  pattern: ^MP:\d{7}$
+  prefix: mp
+  total: 13310
+  version: '2019-11-11'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -824,15 +1462,15 @@ data:
   pattern: ^C\d+$
   prefix: ncit
   total: 158568
-  version: 21.01d
+  version: 21.05d
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Medaka Developmental Stages
-  pattern: ^\d{7}$
-  prefix: olatdv
-  total: 47
-  version: '2020-03-10'
+  name: NMR-instrument specific component of metabolomics investigations
+  pattern: ^NMR:\d+$
+  prefix: nmr
+  total: 113
+  version: 1.1.0
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -848,19 +1486,19 @@ data:
   pattern: ^\d{7}$
   prefix: omp
   total: 1997
-  version: '2021-05-07'
+  version: '2021-07-02'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Platynereis Developmental Stages
+  name: Population and Community Ontology
   pattern: ^\d{7}$
-  prefix: pdumdv
-  total: 21
-  version: '2020-03-10'
+  prefix: pco
+  total: 65
+  version: '2021-05-03'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Plant Experimental Conditions Ontology
+  name: Plant Environment Ontology
   pattern: ^(P)?EO\:\d{7}$
   prefix: peco
   total: 550
@@ -868,11 +1506,11 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Pfam database of protein families
-  pattern: ^PF\d{5}$
-  prefix: pfam
-  total: 19179
-  version: null
+  name: Pathogen Host Interaction Phenotype Ontology
+  pattern: ^\d{7}$
+  prefix: phipo
+  total: 932
+  version: '2021-07-14'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -880,6 +1518,30 @@ data:
   pattern: ^\b[0-9a-f]{8}\b-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-\b[0-9a-f]{12}\b$
   prefix: pid.pathway
   total: 211
+  version: null
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Planarian Phenotype Ontology
+  pattern: ^\d+$
+  prefix: planp
+  total: 673
+  version: '2020-03-28'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Porifera Ontology
+  pattern: ^\d{7}$
+  prefix: poro
+  total: 607
+  version: '2016-09-13'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: PRIDE Controlled Vocabulary
+  pattern: ^\d+$
+  prefix: pride
+  total: 607
   version: null
 - invalid: 0
   invalid_percent: 0.0
@@ -892,26 +1554,10 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
-  name: Reactome - a curated knowledgebase of biological pathways
-  pattern: (^R-[A-Z]{3}-\d+(-\d+)?(\.\d+)?$)|(^REACT_\d+(\.\d+)?$)
-  prefix: reactome
-  total: 20567
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Rat Genome Database
+  name: Rat Genome Database ID
   pattern: ^\d{4,}$
   prefix: rgd
   total: 65147
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Rhea, the Annotated Reactions Database
-  pattern: ^\d{5}$
-  prefix: rhea
-  total: 13528
   version: null
 - invalid: 0
   invalid_percent: 0.0
@@ -948,11 +1594,19 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
+  name: Social Insect Behavior Ontology
+  pattern: ^\d{7}$
+  prefix: sibo
+  total: 481
+  version: '2015-06-15'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
   name: Sequence types and features ontology
   pattern: ^SO:\d{7}$
   prefix: so
   total: 2339
-  version: '2021-04-27'
+  version: '2021-07-12'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -961,6 +1615,14 @@ data:
   prefix: spd
   total: 757
   version: '2019-02-27'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Software ontology
+  pattern: ^\d{7}$
+  prefix: swo
+  total: 13
+  version: '1.7'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -977,6 +1639,14 @@ data:
   prefix: tads
   total: 628
   version: '2015-08-20'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Taxonomic rank vocabulary
+  pattern: ^\d{7}$
+  prefix: taxrank
+  total: 61
+  version: '2016-04-15'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -1000,7 +1670,7 @@ data:
   pattern: ^UBERON:\d+$
   prefix: uberon
   total: 14084
-  version: '2021-02-12'
+  version: '2021-07-06'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -1009,6 +1679,14 @@ data:
   prefix: umls
   total: 4412440
   version: null
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Unimod protein modification database for mass spectrometry
+  pattern: ^\d+$
+  prefix: unimod
+  total: 1500
+  version: '2019-11-21'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -1021,18 +1699,10 @@ data:
   invalid_percent: 0.0
   invalid_sample: []
   name: Variation Ontology
-  pattern: ^\d+$
+  pattern: ^VariO:\d+$
   prefix: vario
   total: 495
   version: '2018-11-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: WikiPathways
-  pattern: WP\d{1,5}(\_r\d+)?$
-  prefix: wikipathways
-  total: 1741
-  version: null
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -1060,11 +1730,19 @@ data:
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
+  name: Xenopus Phenotype Ontology
+  pattern: ^\d+$
+  prefix: xpo
+  total: 20061
+  version: '2021-03-05'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
   name: Zebrafish Experimental Conditions Ontology
   pattern: ^\d{7}$
   prefix: zeco
   total: 161
-  version: '2020-11-30'
+  version: '2021-06-04'
 - invalid: 0
   invalid_percent: 0.0
   invalid_sample: []
@@ -1081,6 +1759,15 @@ data:
   prefix: zfs
   total: 54
   version: '2020-03-10'
+- invalid: 0
+  invalid_percent: 0.0
+  invalid_sample: []
+  name: Zebrafish Phenotype Ontology
+  pattern: ^\d+$
+  prefix: zp
+  total: 33725
+  version: '2020-08-02'
 metadata:
-  date: '2021-05-25T10:48:37.096197'
-  pyobo_version: 0.4.0-UNHASHED
+  bioregistry_version: 0.2.7-dev
+  date: '2021-07-21T00:30:19.931985'
+  pyobo_version: 0.5.1-dev-da7f208f
