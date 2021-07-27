@@ -55,6 +55,21 @@ def main():
     ])
     df.to_csv(DATA / 'report_table.tsv', sep='\t', index=False)
 
+    dump_data = [
+        dict(
+            prefix=prefix,
+            name=bioregistry.get_name(prefix),
+            version=bioregistry.get_version(prefix),
+            pattern=bioregistry.get_pattern(prefix),
+            invalid=len(invalid),
+            invalid_percent=round(100 * len(invalid) / total, 2),
+            total=total,
+            invalid_sample=invalid[:75],
+        )
+        for prefix, invalid, total in data
+    ]
+    dump_data = sorted(dump_data, key=lambda entry: (-entry['invalid_percent'], entry['invalid']))
+
     with DATA.joinpath('report.yml').open('w') as file:
         yaml.safe_dump(stream=file, data=dict(
             metadata=dict(
@@ -62,19 +77,7 @@ def main():
                 pyobo_version=pyobo.get_version(with_git_hash=True),
                 bioregistry_version=BIOREGISTRY_VERSION,
             ),
-            data=[
-                dict(
-                    prefix=prefix,
-                    name=bioregistry.get_name(prefix),
-                    version=bioregistry.get_version(prefix),
-                    pattern=bioregistry.get_pattern(prefix),
-                    invalid=len(invalid),
-                    invalid_percent=round(100 * len(invalid) / total, 2),
-                    total=total,
-                    invalid_sample=invalid[:75],
-                )
-                for prefix, invalid, total in data
-            ],
+            data=dump_data,
         ))
 
 

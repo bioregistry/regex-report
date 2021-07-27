@@ -10,6 +10,7 @@ wbls	774	774
 hsapdv	238	238
 exo	149	149
 mmusdv	134	134
+eccode	51	6982
 olatdv	47	47
 idomal	41	1457
 pdumdv	21	21
@@ -18,6 +19,7 @@ eco	2	1788
 aeo	1	133
 fbbi	1	1
 obi	1	2927
+uniprot	1	565255
 apo	0	309
 bfo	0	35
 bspo	0	139
@@ -35,6 +37,8 @@ ddanat	0	131
 ddpheno	0	982
 depmap	0	1814
 doid	0	10727
+drugbank	0	14315
+drugbank.salt	0	2505
 ecocore	0	177
 efo	0	9875
 emapa	0	7845
@@ -52,8 +56,11 @@ hgnc.genefamily	0	1569
 hp	0	15816
 ido	0	253
 itis	0	856953
+mesh	0	300093
 mgi	0	304226
 mi	0	1435
+mirbase	0	38589
+mirbase.mature	0	49168
 miro	0	4340
 mmo	0	743
 mod	0	1978
@@ -69,13 +76,16 @@ omit	0	89
 omp	0	1997
 pco	0	65
 peco	0	550
+pfam	0	19179
 phipo	0	932
 pid.pathway	0	211
 planp	0	673
 poro	0	607
 pride	0	607
 pw	0	2600
+reactome	0	21195
 rgd	0	65147
+rhea	0	13651
 rs	0	4835
 rxno	0	614
 sbo	0	651
@@ -94,6 +104,7 @@ umls	0	4412440
 unimod	0	1500
 upa	0	4659
 vario	0	495
+wikipathways	0	1770
 xao	0	1720
 xco	0	816
 xlmod	0	1101

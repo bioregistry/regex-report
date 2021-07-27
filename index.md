@@ -1,7 +1,9 @@
 ---
 layout: home
 ---
-Generated at https://github.com/bioregistry/regex-report using the Bioregistry and PyOBO.
+Generated using the Bioregistry v{{ site.data.report.metadata.bioregistry_version }}
+and PyOBO v{{ site.data.report.metadata.pyobo_version }}
+on {{ site.data.report.metadata.date }} using code on [GitHub](https://github.com/bioregistry/regex-report).
 
 <table>
 <thead>
