@@ -4,30 +4,25 @@
 
 import datetime
 import pathlib
-from typing import List, Tuple, Union
+from typing import Any, List, Mapping, Tuple, Union
 
+import bioregistry
 import click
 import pandas as pd
+import pyobo
 import yaml
+from bioregistry.version import VERSION as BIOREGISTRY_VERSION
 from more_click import verbose_option
 from tqdm import tqdm
 from tqdm.contrib.logging import logging_redirect_tqdm
 
-import bioregistry
-import pyobo
-from bioregistry.version import VERSION as BIOREGISTRY_VERSION
-
 HERE = pathlib.Path(__file__).parent.resolve()
-DATA = HERE.joinpath('_data')
+DATA = HERE.joinpath("_data")
 DATA.mkdir(parents=True, exist_ok=True)
 
-SKIP = {
-    'gaz', 'ncbigene', 'pubchem.compound', 'pubchem.substance'
-}
-SKIP_PREFIX = {
-    'kegg'
-}
-COLUMNS = ['prefix', 'invalid', 'total']
+SKIP = {"gaz", "ncbigene", "pubchem.compound", "pubchem.substance"}
+SKIP_PREFIX = {"kegg", "umls"}
+COLUMNS = ["prefix", "invalid", "total"]
 
 
 @click.command()
@@ -35,7 +30,9 @@ COLUMNS = ['prefix', 'invalid', 'total']
 def main():
     """Build the regex report."""
     data = []
-    it = tqdm(bioregistry.read_registry(), desc='Calculating consistencies', unit='prefix')
+    it = tqdm(
+        bioregistry.read_registry(), desc="Calculating consistencies", unit="prefix"
+    )
     for prefix in it:
         it.set_postfix(prefix=prefix)
         if prefix in SKIP or any(prefix.startswith(p) for p in SKIP_PREFIX):
@@ -49,63 +46,81 @@ def main():
     # sort by invalid (desc) then prefix (asc)
     data = sorted(data, key=lambda p: (-len(p[1]), p[0]))
 
-    df = pd.DataFrame(columns=COLUMNS, data=[
-        (prefix, len(invalid), total)
-        for prefix, invalid, total in data
-    ])
-    df.to_csv(DATA / 'report_table.tsv', sep='\t', index=False)
+    df = pd.DataFrame(
+        columns=COLUMNS,
+        data=[(prefix, len(invalid), total) for prefix, invalid, total in data],
+    )
+    df.to_csv(DATA / "report_table.tsv", sep="\t", index=False)
 
-    dump_data = [
-        dict(
-            prefix=prefix,
-            name=bioregistry.get_name(prefix),
-            version=bioregistry.get_version(prefix),
-            pattern=bioregistry.get_pattern(prefix),
-            invalid=len(invalid),
-            invalid_percent=round(100 * len(invalid) / total, 2),
-            total=total,
-            invalid_sample=invalid[:75],
-        )
-        for prefix, invalid, total in data
-    ]
-    dump_data = sorted(dump_data, key=lambda entry: (-entry['invalid_percent'], entry['invalid']))
+    dump_data = sorted(
+        [
+            dict(
+                prefix=prefix,
+                name=bioregistry.get_name(prefix),
+                version=bioregistry.get_version(prefix),
+                pattern=bioregistry.get_pattern(prefix),
+                invalid=len(invalid),
+                invalid_percent=round(100 * len(invalid) / total, 2),
+                total=total,
+                invalid_sample=invalid[:75],
+            )
+            for prefix, invalid, total in data
+        ],
+        key=lambda entry: (-entry["invalid_percent"], entry["invalid"]),
+    )
 
-    with DATA.joinpath('report.yml').open('w') as file:
-        yaml.safe_dump(stream=file, data=dict(
-            metadata=dict(
-                date=datetime.datetime.now().isoformat(),
-                pyobo_version=pyobo.get_version(with_git_hash=True),
-                bioregistry_version=BIOREGISTRY_VERSION,
+    with DATA.joinpath("report.yml").open("w") as file:
+        yaml.safe_dump(
+            stream=file,
+            data=dict(
+                metadata=dict(
+                    date=datetime.datetime.now().isoformat(),
+                    pyobo_version=pyobo.get_version(with_git_hash=True),
+                    bioregistry_version=BIOREGISTRY_VERSION,
+                ),
+                data=dump_data,
             ),
-            data=dump_data,
-        ))
+        )
 
 
-def calculate(prefix: str) -> Union[Tuple[List[str], int], Tuple[None, None]]:
+def calculate(
+    prefix: str,
+) -> Union[Tuple[List[Mapping[str, Any]], int], Tuple[None, None]]:
     """Calculate the inconsistency for the given prefix."""
-    pattern = bioregistry.get_pattern(prefix)
+    pattern = bioregistry.get_pattern_re(prefix)
     if not pattern:
         return None, None
     try:
-        identifiers = pyobo.get_id_name_mapping(prefix)
+        identifiers = pyobo.get_ids(prefix)
     except Exception:
         return None, None
 
     invalid = []
-    for identifier in tqdm(identifiers, leave=False):
-        if not bioregistry.validate(prefix, identifier):
-            invalid.append(identifier)
+    for identifier in tqdm(
+        identifiers, leave=False, unit_scale=True, unit="identifier"
+    ):
+        if not bioregistry.is_known_identifier(prefix, identifier):
+            invalid.append(
+                {
+                    "identifier": identifier,
+                    "name": pyobo.get_name(prefix, identifier),
+                    "link": bioregistry.get_link(prefix, identifier),
+                }
+            )
 
     n_identifiers = len(identifiers)
     if n_identifiers == 0:
-        echo(f'{prefix} no identifiers', fg='yellow')
+        echo(f"{prefix} no identifiers", fg="yellow")
         return None, None
 
     n_invalid = len(invalid)
     if n_invalid == 0:
-        echo(f'{prefix} consistent pattern {pattern}', fg='green')
+        echo(f"{prefix} consistent pattern {pattern}", fg="green")
     else:
-        echo(f'{prefix} had {n_invalid} ({n_invalid / n_identifiers:.2%}) invalid', fg='yellow')
+        echo(
+            f"{prefix} had {n_invalid} ({n_invalid / n_identifiers:.2%}) invalid",
+            fg="yellow",
+        )
     return invalid, len(identifiers)
 
 
@@ -115,5 +130,5 @@ def echo(*args, **kwargs) -> None:
         click.secho(*args, **kwargs)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
