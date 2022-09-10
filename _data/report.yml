@@ -2,487 +2,170 @@ data:
 - invalid: 171450
   invalid_percent: 75.62
   invalid_sample:
-  - identifier: Q8BFZ8-1
-    link: https://proconsortium.org/app/entry/PR:Q8BFZ8-1
-    name: protein FAM72A isoform 1 (mouse)
-  - identifier: P19505
-    link: https://proconsortium.org/app/entry/PR:P19505
-    name: gag-pol polyprotein (Simian immunodeficiency virus (isolate PBj14/BCL-3))
-  - identifier: P41146
-    link: https://proconsortium.org/app/entry/PR:P41146
-    name: nociceptin receptor (human)
-  - identifier: P54709-1
-    link: https://proconsortium.org/app/entry/PR:P54709-1
-    name: sodium/potassium-transporting ATPase subunit beta-3 isoform 1 (human)
-  - identifier: Q7TST9
-    link: https://proconsortium.org/app/entry/PR:Q7TST9
-    name: T-box transcription factor TBX3 (rat)
-  - identifier: Q1LUE5
-    link: https://proconsortium.org/app/entry/PR:Q1LUE5
-    name: zinc finger CCCH domain-containing protein 18 (zebrafish)
-  - identifier: O35242
-    link: https://proconsortium.org/app/entry/PR:O35242
-    name: protein FAN (mouse)
-  - identifier: E1C2Q1
-    link: https://proconsortium.org/app/entry/PR:E1C2Q1
-    name: uncharacterized protein, GRIK4 translation product (chicken)
-  - identifier: Q64691
-    link: https://proconsortium.org/app/entry/PR:Q64691
-    name: calpain-3 (mouse)
-  - identifier: P56202
-    link: https://proconsortium.org/app/entry/PR:P56202
-    name: cathepsin W (human)
-  - identifier: Q99720-5
-    link: https://proconsortium.org/app/entry/PR:Q99720-5
-    name: sigma non-opioid intracellular receptor 1 isoform 5 (human)
-  - identifier: Q9LHP2
-    link: https://proconsortium.org/app/entry/PR:Q9LHP2
-    name: serine/arginine-rich SC35-like splicing factor SCL30A (Arabidopsis thaliana)
-  - identifier: Q99MB3
-    link: https://proconsortium.org/app/entry/PR:Q99MB3
-    name: TM2 domain-containing protein 1 (mouse)
-  - identifier: Q47163
-    link: https://proconsortium.org/app/entry/PR:Q47163
-    name: type I restriction enzyme EcoprrI methylase subunit (Escherichia coli CTr5x)
-  - identifier: E9QAT4-1
-    link: https://proconsortium.org/app/entry/PR:E9QAT4-1
-    name: protein transport protein Sec16A isoform m1 (mouse)
-  - identifier: Q9BZW7
-    link: https://proconsortium.org/app/entry/PR:Q9BZW7
-    name: testis-specific gene 10 protein (human)
-  - identifier: O23100-2
-    link: https://proconsortium.org/app/entry/PR:O23100-2
-    name: putative two-component response regulator-like APRR8 isoform 2 (Arabidopsis
-      thaliana)
-  - identifier: Q08189
-    link: https://proconsortium.org/app/entry/PR:Q08189
-    name: protein-glutamine gamma-glutamyltransferase E (mouse)
-  - identifier: Q800L3-2
-    link: https://proconsortium.org/app/entry/PR:Q800L3-2
-    name: mediator of RNA polymerase II transcription subunit 22 isoform 2 (chicken)
-  - identifier: Q8N1Q1-1
-    link: https://proconsortium.org/app/entry/PR:Q8N1Q1-1
-    name: carbonic anhydrase 13 isoform 1 (human)
-  - identifier: A2AR50-4
-    link: https://proconsortium.org/app/entry/PR:A2AR50-4
-    name: Ras-specific guanine nucleotide-releasing factor RalGPS1 isoform m4 (mouse)
-  - identifier: Q62782
-    link: https://proconsortium.org/app/entry/PR:Q62782
-    name: paired mesoderm homeobox protein 2A (rat)
-  - identifier: Q75JF2
-    link: https://proconsortium.org/app/entry/PR:Q75JF2
-    name: putative uncharacterized protein DDB_G0276139 (Dictyostelium discoideum)
-  - identifier: Q86BF9
-    link: https://proconsortium.org/app/entry/PR:Q86BF9
-    name: odorant-binding protein 59a (fruit fly)
-  - identifier: Q8MLZ7
-    link: https://proconsortium.org/app/entry/PR:Q8MLZ7
-    name: chitinase-like protein Idgf3 (fruit fly)
+  - identifier: A0A023PYF4
+    link: https://proconsortium.org/app/entry/PR:A0A023PYF4
+    name: uncharacterized protein YER145C-A (yeast)
+  - identifier: A0A023PZB3
+    link: https://proconsortium.org/app/entry/PR:A0A023PZB3
+    name: protein FMP49, mitochondrial (yeast)
+  - identifier: A0A023PZE8
+    link: https://proconsortium.org/app/entry/PR:A0A023PZE8
+    name: uncharacterized protein YDR157W (yeast)
+  - identifier: A0A023PZF2
+    link: https://proconsortium.org/app/entry/PR:A0A023PZF2
+    name: uncharacterized protein YEL009C-A (yeast)
+  - identifier: A0A023PZG4
+    link: https://proconsortium.org/app/entry/PR:A0A023PZG4
+    name: uncharacterized protein YLR236C (yeast)
+  - identifier: A0A024RBG1
+    link: https://proconsortium.org/app/entry/PR:A0A024RBG1
+    name: diphosphoinositol polyphosphate phosphohydrolase NUDT4B (human)
+  - identifier: A0A061ACU2
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2
+    name: piezo-type mechanosensitive ion channel component 1 (worm)
+  - identifier: A0A061ACU2-1
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-1
+    name: piezo-type mechanosensitive ion channel component 1 isoform g (worm)
+  - identifier: A0A061ACU2-10
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-10
+    name: piezo-type mechanosensitive ion channel component 1 isoform j (worm)
+  - identifier: A0A061ACU2-11
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-11
+    name: piezo-type mechanosensitive ion channel component 1 isoform k (worm)
+  - identifier: A0A061ACU2-12
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-12
+    name: piezo-type mechanosensitive ion channel component 1 isoform l (worm)
+  - identifier: A0A061ACU2-2
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-2
+    name: piezo-type mechanosensitive ion channel component 1 isoform a (worm)
+  - identifier: A0A061ACU2-3
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-3
+    name: piezo-type mechanosensitive ion channel component 1 isoform b (worm)
+  - identifier: A0A061ACU2-4
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-4
+    name: piezo-type mechanosensitive ion channel component 1 isoform c (worm)
+  - identifier: A0A061ACU2-5
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-5
+    name: piezo-type mechanosensitive ion channel component 1 isoform d (worm)
+  - identifier: A0A061ACU2-6
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-6
+    name: piezo-type mechanosensitive ion channel component 1 isoform e (worm)
+  - identifier: A0A061ACU2-7
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-7
+    name: piezo-type mechanosensitive ion channel component 1 isoform f (worm)
+  - identifier: A0A061ACU2-8
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-8
+    name: piezo-type mechanosensitive ion channel component 1 isoform h (worm)
+  - identifier: A0A061ACU2-9
+    link: https://proconsortium.org/app/entry/PR:A0A061ACU2-9
+    name: piezo-type mechanosensitive ion channel component 1 isoform i (worm)
+  - identifier: A0A075B6H7
+    link: https://proconsortium.org/app/entry/PR:A0A075B6H7
+    name: probable non-functional immunoglobulin kappa variable 3-7 (human)
+  - identifier: A0A075B6H8
+    link: https://proconsortium.org/app/entry/PR:A0A075B6H8
+    name: probable non-functional immunoglobulin kappa variable 1D-42 (human)
+  - identifier: A0A075B6H9
+    link: https://proconsortium.org/app/entry/PR:A0A075B6H9
+    name: immunoglobulin lambda variable 4-69 (human)
+  - identifier: A0A075B6I0
+    link: https://proconsortium.org/app/entry/PR:A0A075B6I0
+    name: immunoglobulin lambda variable 8-61 (human)
+  - identifier: A0A075B6I1
+    link: https://proconsortium.org/app/entry/PR:A0A075B6I1
+    name: immunoglobulin lambda variable 4-60 (human)
+  - identifier: A0A075B6I3
+    link: https://proconsortium.org/app/entry/PR:A0A075B6I3
+    name: probable non-functional immunoglobulin lambda variable 11-55 (human)
   name: Protein Ontology
   pattern: ^\d+$
   prefix: pr
   total: 226731
   version: '67.0'
-- invalid: 2280
-  invalid_percent: 29.87
-  invalid_sample:
-  - identifier: VT0005450
-    link: http://purl.obolibrary.org/obo/OBA_VT0005450
-    name: energy expenditure trait
-  - identifier: VT0003769
-    link: http://purl.obolibrary.org/obo/OBA_VT0003769
-    name: lip morphology trait
-  - identifier: VT0002282
-    link: http://purl.obolibrary.org/obo/OBA_VT0002282
-    name: trachea morphology trait
-  - identifier: VT0004438
-    link: http://purl.obolibrary.org/obo/OBA_VT0004438
-    name: vestibular hair cell physiology trait
-  - identifier: VT0002847
-    link: http://purl.obolibrary.org/obo/OBA_VT0002847
-    name: glomerular filtration trait
-  - identifier: VT0001329
-    link: http://purl.obolibrary.org/obo/OBA_VT0001329
-    name: retina cell quantity
-  - identifier: VT0000819
-    link: http://purl.obolibrary.org/obo/OBA_VT0000819
-    name: olfactory bulb morphology trait
-  - identifier: VT0006107
-    link: http://purl.obolibrary.org/obo/OBA_VT0006107
-    name: atrioventricular canal morphology trait
-  - identifier: VT0001179
-    link: http://purl.obolibrary.org/obo/OBA_VT0001179
-    name: alveolar septum thickness
-  - identifier: VT0007090
-    link: http://purl.obolibrary.org/obo/OBA_VT0007090
-    name: aorta size trait
-  - identifier: VT0006102
-    link: http://purl.obolibrary.org/obo/OBA_VT0006102
-    name: tegmentum size trait
-  - identifier: VT0002970
-    link: http://purl.obolibrary.org/obo/OBA_VT0002970
-    name: white adipose morphology trait
-  - identifier: VT0003056
-    link: http://purl.obolibrary.org/obo/OBA_VT0003056
-    name: hyoid bone morphology trait
-  - identifier: VT0010275
-    link: http://purl.obolibrary.org/obo/OBA_VT0010275
-    name: milk hormone amount
-  - identifier: VT0008589
-    link: http://purl.obolibrary.org/obo/OBA_VT0008589
-    name: blood interleukin-1 amount
-  - identifier: VT0001884
-    link: http://purl.obolibrary.org/obo/OBA_VT0001884
-    name: mammary alveoli morphology trait
-  - identifier: VT0003384
-    link: http://purl.obolibrary.org/obo/OBA_VT0003384
-    name: ventral body wall morphology
-  - identifier: VT0010220
-    link: http://purl.obolibrary.org/obo/OBA_VT0010220
-    name: large intestine mass
-  - identifier: VT0000319
-    link: http://purl.obolibrary.org/obo/OBA_VT0000319
-    name: endolymph physiology trait
-  - identifier: VT0001942
-    link: http://purl.obolibrary.org/obo/OBA_VT0001942
-    name: lung capacity
-  - identifier: VT0000558
-    link: http://purl.obolibrary.org/obo/OBA_VT0000558
-    name: tibia morphology trait
-  - identifier: VT0004062
-    link: http://purl.obolibrary.org/obo/OBA_VT0004062
-    name: right atrium capacity
-  - identifier: VT0010658
-    link: http://purl.obolibrary.org/obo/OBA_VT0010658
-    name: comb shape
-  - identifier: VT0005663
-    link: http://purl.obolibrary.org/obo/OBA_VT0005663
-    name: blood norepinephrine amount
-  - identifier: VT0010496
-    link: http://purl.obolibrary.org/obo/OBA_VT0010496
-    name: pituitary gland mass
-  name: Ontology of Biological Attributes
-  pattern: ^\d{7}$
-  prefix: oba
-  total: 7634
-  version: '2022-08-03'
-- invalid: 129
-  invalid_percent: 16.91
-  invalid_sample:
-  - identifier: '07502'
-    link: https://bioregistry.io/fobi:07502
-    name: Coca Cola Light
-  - identifier: 08804
-    link: https://bioregistry.io/fobi:08804
-    name: 4-hydroxy-5-(3',5'-dihydroxyphenyl)-valeric acid glucuronide
-  - identifier: 08665
-    link: https://bioregistry.io/fobi:08665
-    name: "5-(3',5'-dihydroxyphenyl)-\u03B3-valerolactone"
-  - identifier: 08684
-    link: https://bioregistry.io/fobi:08684
-    name: 3'-methylepicatechin 5-sulfate
-  - identifier: '07504'
-    link: https://bioregistry.io/fobi:07504
-    name: Coca Cola
-  - identifier: 07584
-    link: https://bioregistry.io/fobi:07584
-    name: zero coke
-  - identifier: 08696
-    link: https://bioregistry.io/fobi:08696
-    name: 1-methylpyrogallol 3-glucuronide
-  - identifier: 08695
-    link: https://bioregistry.io/fobi:08695
-    name: 1-methylpyrogallol 2-glucuronide
-  - identifier: 08680
-    link: https://bioregistry.io/fobi:08680
-    name: 3-(4-hydroxyphenyl)propionic acid glucuronide
-  - identifier: 08702
-    link: https://bioregistry.io/fobi:08702
-    name: naringenin 5-glucuronide
-  - identifier: 08652
-    link: https://bioregistry.io/fobi:08652
-    name: catechin 3'-sulfate
-  - identifier: 08692
-    link: https://bioregistry.io/fobi:08692
-    name: 3-methylgallic acid 4-sulfate
-  - identifier: 08566
-    link: https://bioregistry.io/fobi:08566
-    name: 3'-methylcatechin 4'-glucuronide
-  - identifier: 08643
-    link: https://bioregistry.io/fobi:08643
-    name: 4'-methylepicatechin 3'-glucuronide
-  - identifier: 08807
-    link: https://bioregistry.io/fobi:08807
-    name: 3,4-dihydroxyphenylvaleric acid 3 glucuronide
-  - identifier: 08653
-    link: https://bioregistry.io/fobi:08653
-    name: catechin 4'-sulfate
-  - identifier: 08647
-    link: https://bioregistry.io/fobi:08647
-    name: catechin 5-glucuronide
-  - identifier: 08708
-    link: https://bioregistry.io/fobi:08708
-    name: urolithin a 3-sulfate
-  - identifier: 08672
-    link: https://bioregistry.io/fobi:08672
-    name: 2,5-dihydroxybenzoic acid 5-glucuronide
-  - identifier: 08648
-    link: https://bioregistry.io/fobi:08648
-    name: epicatechin 3'-glucuronide
-  - identifier: 08809
-    link: https://bioregistry.io/fobi:08809
-    name: 3,4-dihydroxyphenylvaleric acid 4 glucuronide
-  - identifier: 08811
-    link: https://bioregistry.io/fobi:08811
-    name: 3,5-dihydroxyphenylvaleric acid
-  - identifier: 08686
-    link: https://bioregistry.io/fobi:08686
-    name: 4'-methylepicatechin 3'-sulfate
-  - identifier: 08822
-    link: https://bioregistry.io/fobi:08822
-    name: phytic acid
-  - identifier: 08683
-    link: https://bioregistry.io/fobi:08683
-    name: 3'-methylepicatechin 4'-sulfate
-  name: Food-Biomarker Ontology
-  pattern: ^\d{6}$
-  prefix: fobi
-  total: 763
-  version: null
 - invalid: 296
   invalid_percent: 12.62
   invalid_sample:
-  - identifier: Z20-Z29
-    link: https://icd.who.int/browse10/2019/en#/Z20-Z29
-    name: Persons with potential health hazards related to communicable diseases
-  - identifier: L60-L75
-    link: https://icd.who.int/browse10/2019/en#/L60-L75
-    name: Disorders of skin appendages
-  - identifier: G80-G83
-    link: https://icd.who.int/browse10/2019/en#/G80-G83
-    name: Cerebral palsy and other paralytic syndromes
-  - identifier: K65-K67
-    link: https://icd.who.int/browse10/2019/en#/K65-K67
-    name: Diseases of peritoneum
-  - identifier: C43-C44
-    link: https://icd.who.int/browse10/2019/en#/C43-C44
-    name: Melanoma and other malignant neoplasms of skin
-  - identifier: E50-E64
-    link: https://icd.who.int/browse10/2019/en#/E50-E64
-    name: Other nutritional deficiencies
-  - identifier: S60-S69
-    link: https://icd.who.int/browse10/2019/en#/S60-S69
-    name: Injuries to the wrist and hand
-  - identifier: F40-F48
-    link: https://icd.who.int/browse10/2019/en#/F40-F48
-    name: Neurotic, stress-related and somatoform disorders
-  - identifier: XI
-    link: https://icd.who.int/browse10/2019/en#/XI
-    name: Diseases of the digestive system
-  - identifier: N30-N39
-    link: https://icd.who.int/browse10/2019/en#/N30-N39
-    name: Other diseases of urinary system
-  - identifier: T20-T25
-    link: https://icd.who.int/browse10/2019/en#/T20-T25
-    name: Burns and corrosions of external body surface, specified by site
-  - identifier: X
-    link: https://icd.who.int/browse10/2019/en#/X
-    name: Diseases of the respiratory system
-  - identifier: F20-F29
-    link: https://icd.who.int/browse10/2019/en#/F20-F29
-    name: Schizophrenia, schizotypal and delusional disorders
-  - identifier: D10-D36
-    link: https://icd.who.int/browse10/2019/en#/D10-D36
-    name: Benign neoplasms
-  - identifier: T26-T28
-    link: https://icd.who.int/browse10/2019/en#/T26-T28
-    name: Burns and corrosions confined to eye and internal organs
-  - identifier: U00-U49
-    link: https://icd.who.int/browse10/2019/en#/U00-U49
-    name: Provisional assignment of new diseases of uncertain etiology or emergency
-      use
-  - identifier: G60-G64
-    link: https://icd.who.int/browse10/2019/en#/G60-G64
-    name: Polyneuropathies and other disorders of the peripheral nervous system
-  - identifier: Z55-Z65
-    link: https://icd.who.int/browse10/2019/en#/Z55-Z65
-    name: Persons with potential health hazards related to socioeconomic and psychosocial
-      circumstances
-  - identifier: I80-I89
-    link: https://icd.who.int/browse10/2019/en#/I80-I89
-    name: Diseases of veins, lymphatic vessels and lymph nodes, not elsewhere classified
-  - identifier: D55-D59
-    link: https://icd.who.int/browse10/2019/en#/D55-D59
-    name: Haemolytic anaemias
-  - identifier: F60-F69
-    link: https://icd.who.int/browse10/2019/en#/F60-F69
-    name: Disorders of adult personality and behaviour
+  - identifier: A00-A09
+    link: https://icd.who.int/browse10/2019/en#/A00-A09
+    name: Intestinal infectious diseases
+  - identifier: A15-A19
+    link: https://icd.who.int/browse10/2019/en#/A15-A19
+    name: Tuberculosis
+  - identifier: A20-A28
+    link: https://icd.who.int/browse10/2019/en#/A20-A28
+    name: Certain zoonotic bacterial diseases
+  - identifier: A30-A49
+    link: https://icd.who.int/browse10/2019/en#/A30-A49
+    name: Other bacterial diseases
+  - identifier: A50-A64
+    link: https://icd.who.int/browse10/2019/en#/A50-A64
+    name: Infections with a predominantly sexual mode of transmission
+  - identifier: A65-A69
+    link: https://icd.who.int/browse10/2019/en#/A65-A69
+    name: Other spirochaetal diseases
+  - identifier: A70-A74
+    link: https://icd.who.int/browse10/2019/en#/A70-A74
+    name: Other diseases caused by chlamydiae
+  - identifier: A75-A79
+    link: https://icd.who.int/browse10/2019/en#/A75-A79
+    name: Rickettsioses
+  - identifier: A80-A89
+    link: https://icd.who.int/browse10/2019/en#/A80-A89
+    name: Viral infections of the central nervous system
+  - identifier: A92-A99
+    link: https://icd.who.int/browse10/2019/en#/A92-A99
+    name: Arthropod-borne viral fevers and viral haemorrhagic fevers
+  - identifier: B00-B09
+    link: https://icd.who.int/browse10/2019/en#/B00-B09
+    name: Viral infections characterized by skin and mucous membrane lesions
+  - identifier: B15-B19
+    link: https://icd.who.int/browse10/2019/en#/B15-B19
+    name: Viral hepatitis
+  - identifier: B20-B24
+    link: https://icd.who.int/browse10/2019/en#/B20-B24
+    name: Human immunodeficiency virus [HIV] disease
+  - identifier: B25-B34
+    link: https://icd.who.int/browse10/2019/en#/B25-B34
+    name: Other viral diseases
+  - identifier: B35-B49
+    link: https://icd.who.int/browse10/2019/en#/B35-B49
+    name: Mycoses
+  - identifier: B50-B64
+    link: https://icd.who.int/browse10/2019/en#/B50-B64
+    name: Protozoal diseases
+  - identifier: B65-B83
+    link: https://icd.who.int/browse10/2019/en#/B65-B83
+    name: Helminthiases
+  - identifier: B85-B89
+    link: https://icd.who.int/browse10/2019/en#/B85-B89
+    name: Pediculosis, acariasis and other infestations
+  - identifier: B90-B94
+    link: https://icd.who.int/browse10/2019/en#/B90-B94
+    name: Sequelae of infectious and parasitic diseases
+  - identifier: B95-B98
+    link: https://icd.who.int/browse10/2019/en#/B95-B98
+    name: Bacterial, viral and other infectious agents
+  - identifier: B99-B99
+    link: https://icd.who.int/browse10/2019/en#/B99-B99
+    name: Other infectious diseases
+  - identifier: C00-C14
+    link: https://icd.who.int/browse10/2019/en#/C00-C14
+    name: Malignant neoplasms of lip, oral cavity and pharynx
+  - identifier: C00-C75
+    link: https://icd.who.int/browse10/2019/en#/C00-C75
+    name: Malignant neoplasms, stated or presumed to be primary, of specified sites,
+      except of lymphoid, haematopoietic and related tissue
+  - identifier: C00-C97
+    link: https://icd.who.int/browse10/2019/en#/C00-C97
+    name: Malignant neoplasms
   - identifier: C15-C26
     link: https://icd.who.int/browse10/2019/en#/C15-C26
     name: Malignant neoplasms of digestive organs
-  - identifier: E15-E16
-    link: https://icd.who.int/browse10/2019/en#/E15-E16
-    name: Other disorders of glucose regulation and pancreatic internal secretion
-  - identifier: S20-S29
-    link: https://icd.who.int/browse10/2019/en#/S20-S29
-    name: Injuries to the thorax
-  - identifier: O10-O16
-    link: https://icd.who.int/browse10/2019/en#/O10-O16
-    name: Oedema, proteinuria and hypertensive disorders in pregnancy, childbirth
-      and the puerperium
   name: International Classification of Diseases, 10th Revision
   pattern: ^[A-Z]\d+(\.[-\d+])?$
   prefix: icd10
   total: 2345
   version: null
-- invalid: 19
-  invalid_percent: 9.9
-  invalid_sample:
-  - identifier: 010008
-    link: https://bioregistry.io/rbo:010008
-    name: excess lifetime risk of cancer
-  - identifier: '010011'
-    link: https://bioregistry.io/rbo:010011
-    name: flux
-  - identifier: '010006'
-    link: https://bioregistry.io/rbo:010006
-    name: delta ray
-  - identifier: '010017'
-    link: https://bioregistry.io/rbo:010017
-    name: radiation quality
-  - identifier: '010003'
-    link: https://bioregistry.io/rbo:010003
-    name: bystander effect
-  - identifier: '010002'
-    link: https://bioregistry.io/rbo:010002
-    name: biodosimetry
-  - identifier: '010013'
-    link: https://bioregistry.io/rbo:010013
-    name: linear energy transfer
-  - identifier: 010019
-    link: https://bioregistry.io/rbo:010019
-    name: relative biological effectiveness
-  - identifier: '010007'
-    link: https://bioregistry.io/rbo:010007
-    name: dose equivalent
-  - identifier: '010012'
-    link: https://bioregistry.io/rbo:010012
-    name: heavy ion
-  - identifier: '010016'
-    link: https://bioregistry.io/rbo:010016
-    name: radiation dose
-  - identifier: 010009
-    link: https://bioregistry.io/rbo:010009
-    name: fast neutron
-  - identifier: '010000'
-    link: https://bioregistry.io/rbo:010000
-    name: as low as reasonably achievable
-  - identifier: '010020'
-    link: https://bioregistry.io/rbo:010020
-    name: tissue equivalence
-  - identifier: '010010'
-    link: https://bioregistry.io/rbo:010010
-    name: fluence
-  - identifier: '010014'
-    link: https://bioregistry.io/rbo:010014
-    name: organ dose
-  - identifier: '010015'
-    link: https://bioregistry.io/rbo:010015
-    name: quality factor
-  - identifier: 010018
-    link: https://bioregistry.io/rbo:010018
-    name: radiation weighting factor
-  - identifier: '010001'
-    link: https://bioregistry.io/rbo:010001
-    name: radiation attenuation
-  name: Radiation Biology Ontology
-  pattern: ^\d{8}$
-  prefix: rbo
-  total: 192
-  version: '2022-06-02'
-- invalid: 41
-  invalid_percent: 2.81
-  invalid_sample:
-  - identifier: '50000015'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000015
-    name: PfDHFR N51I substitution
-  - identifier: '50000014'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000014
-    name: PfDHFR I164L substitution
-  - identifier: '50000040'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000040
-    name: proguanil resistance.
-  - identifier: '50000041'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000041
-    name: pyrimethamine resistance
-  - identifier: '50000007'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000007
-    name: cytochrome b Y268S substitution
-  - identifier: '50000037'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000037
-    name: atovaquone resistance
-  - identifier: '50000045'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000045
-    name: piperaquine resistance
-  - identifier: '50000039'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000039
-    name: antifolate resistance
-  - identifier: '50000033'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000033
-    name: cross-resistance to multiple drugs
-  - identifier: '50000038'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000038
-    name: artemisinin resistance
-  - identifier: '50000016'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000016
-    name: PfDHFR S108N substitution
-  - identifier: '50000004'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000004
-    name: mutated protein
-  - identifier: '50000009'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000009
-    name: PfDHFR mutated protein
-  - identifier: '50000047'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000047
-    name: sulfadoxine resistance
-  - identifier: '50000011'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000011
-    name: PfMDR1 mutated protein
-  - identifier: '50000021'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000021
-    name: PfDHPS K540E substitution
-  - identifier: '50000005'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000005
-    name: cytochrome b mutated protein
-  - identifier: '50000008'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000008
-    name: PfCRT mutated protein
-  - identifier: '50000046'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000046
-    name: quinine resistance
-  - identifier: '50000006'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000006
-    name: cytochrome b Y268N substitution
-  - identifier: '50000035'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000035
-    name: atovaquone-proguanil resistance
-  - identifier: '50000022'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000022
-    name: PfDHPS S436A substitution
-  - identifier: '50000048'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000048
-    name: tolerance to antimalarial drug
-  - identifier: '50000031'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000031
-    name: resistance to single antimalarial drug
-  - identifier: '50000044'
-    link: http://purl.obolibrary.org/obo/IDOMAL_50000044
-    name: mefloquine resistance
-  name: Malaria Ontology
-  pattern: ^\d{7}$
-  prefix: idomal
-  total: 1457
-  version: '2015-03-16'
 - invalid: 1
   invalid_percent: 0.75
   invalid_sample:
@@ -494,17 +177,6 @@ data:
   prefix: aeo
   total: 133
   version: '2014-12-05'
-- invalid: 1
-  invalid_percent: 0.47
-  invalid_sample:
-  - identifier: 000199
-    link: http://purl.obolibrary.org/obo/SEP_000199
-    name: non-linear distribution
-  name: Sample processing and separation techniques
-  pattern: ^\d{5}$
-  prefix: sep
-  total: 214
-  version: null
 - invalid: 1
   invalid_percent: 0.22
   invalid_sample:
@@ -548,42 +220,42 @@ data:
   - identifier: '0000336'
     link: https://flybase.org/reports/0000336
     name: pseudogene
-  - identifier: 0001269
-    link: https://flybase.org/reports/0001269
-    name: SRP_RNA_gene
-  - identifier: '0001272'
-    link: https://flybase.org/reports/0001272
-    name: tRNA_gene
   - identifier: '0001217'
     link: https://flybase.org/reports/0001217
     name: protein_coding_gene
+  - identifier: '0001263'
+    link: https://flybase.org/reports/0001263
+    name: ncRNA_gene
   - identifier: '0001265'
     link: https://flybase.org/reports/0001265
     name: miRNA_gene
-  - identifier: '0001637'
-    link: https://flybase.org/reports/0001637
-    name: rRNA_gene
-  - identifier: 0002182
-    link: https://flybase.org/reports/0002182
-    name: antisense_lncRNA_gene
   - identifier: '0001267'
     link: https://flybase.org/reports/0001267
     name: snoRNA_gene
   - identifier: 0001268
     link: https://flybase.org/reports/0001268
     name: snRNA_gene
-  - identifier: '0002127'
-    link: https://flybase.org/reports/0002127
-    name: lncRNA_gene
+  - identifier: 0001269
+    link: https://flybase.org/reports/0001269
+    name: SRP_RNA_gene
+  - identifier: '0001272'
+    link: https://flybase.org/reports/0001272
+    name: tRNA_gene
+  - identifier: '0001637'
+    link: https://flybase.org/reports/0001637
+    name: rRNA_gene
   - identifier: 0001639
     link: https://flybase.org/reports/0001639
     name: RNase_P_RNA_gene
   - identifier: '0001640'
     link: https://flybase.org/reports/0001640
     name: RNase_MRP_RNA_gene
-  - identifier: '0001263'
-    link: https://flybase.org/reports/0001263
-    name: ncRNA_gene
+  - identifier: '0002127'
+    link: https://flybase.org/reports/0002127
+    name: lncRNA_gene
+  - identifier: 0002182
+    link: https://flybase.org/reports/0002182
+    name: antisense_lncRNA_gene
   name: FlyBase Gene
   pattern: ^FB\w{2}\d{7}$
   prefix: flybase
@@ -614,1293 +286,101 @@ data:
 - invalid: 2
   invalid_percent: 0.01
   invalid_sample:
-  - identifier: 000084734
-    link: https://flybase.org/cgi-bin/cvreport.pl?id=FBbt:000084734
-    name: presumptive humeral sclerite
   - identifier: 000081112
     link: https://flybase.org/cgi-bin/cvreport.pl?id=FBbt:000081112
     name: leg disc posterior compartment
+  - identifier: 000084734
+    link: https://flybase.org/cgi-bin/cvreport.pl?id=FBbt:000084734
+    name: presumptive humeral sclerite
   name: Drosophila gross anatomy
   pattern: ^\d{8}$
   prefix: fbbt
   total: 17570
   version: '2022-06-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Agronomy Ontology
-  pattern: ^\d{8}$
-  prefix: agro
-  total: 772
-  version: '2021-11-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology for the Anatomy of the Insect SkeletoMuscular system
-  pattern: ^\d{7}$
-  prefix: aism
-  total: 553
-  version: '2022-06-27'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: The Amphioxus Development and Anatomy Ontology
-  pattern: ^\d+$
-  prefix: amphx
-  total: 399
-  version: '2020-12-18'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ascomycete phenotype ontology
-  pattern: ^\d{7}$
-  prefix: apo
-  total: 309
-  version: '2022-07-06'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Antibiotic Resistance Ontology
-  pattern: ^\d{7}$
-  prefix: aro
-  total: 6610
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Basic Formal Ontology
-  pattern: ^\d{7}$
-  prefix: bfo
-  total: 35
-  version: '2019-08-26'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Biological Spatial Ontology
-  pattern: ^\d{7}$
-  prefix: bspo
-  total: 139
-  version: '2022-06-28'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: BRENDA tissue / enzyme source
-  pattern: ^\d{7}$
-  prefix: bto
-  total: 6511
-  version: '2021-10-26'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cell Cycle Ontology
-  pattern: ^\w+$
-  prefix: cco
-  total: 3
-  version: '2016-03-23'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Comparative Data Analysis Ontology
-  pattern: ^\d{7}$
-  prefix: cdao
-  total: 131
-  version: '2019-06-26'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Compositional Dietary Nutrition Ontology
-  pattern: ^\d{7}$
-  prefix: cdno
-  total: 799
-  version: '2022-06-23'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cephalopod Ontology
-  pattern: ^\d{7}$
-  prefix: ceph
-  total: 321
-  version: '2016-01-12'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Chicken Gene Nomenclature Consortium
-  pattern: ^\d+$
-  prefix: cgnc
-  total: 25903
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Chemical Entities of Biological Interest
-  pattern: ^\d+$
-  prefix: chebi
-  total: 162455
-  version: '211'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Chemical Methods Ontology
-  pattern: ^\d{7}$
-  prefix: chmo
-  total: 2908
-  version: '2022-04-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Confidence Information Ontology
-  pattern: ^\d{7}$
-  prefix: cio
-  total: 44
-  version: '2015-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cell Ontology
-  pattern: ^\d{7}$
-  prefix: cl
-  total: 2523
-  version: '2022-08-16'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Collembola Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: clao
-  total: 1495
-  version: '2021-09-27'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Clytia hemisphaerica Development and Anatomy Ontology
-  pattern: ^\d+$
-  prefix: clyh
-  total: 257
-  version: '2020-05-29'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Clinical measurement ontology
-  pattern: ^\d{7}$
-  prefix: cmo
-  total: 3025
-  version: '2019-02-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cellular Microscopy Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: cmpo
-  total: 399
-  version: '2017-12-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Coleoptera Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: colao
-  total: 83
-  version: '2022-06-18'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Complex Portal
-  pattern: ^CPX-[0-9]+$
-  prefix: complexportal
-  total: 3842
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Curation of Neurodegeneration Supporting Ontology
-  pattern: ^CONSO\d{5}$
-  prefix: conso
-  total: 368
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Contributor Role Ontology
-  pattern: ^\d{7}$
-  prefix: cro
-  total: 81
-  version: '2019-12-11'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cryo Electron Microscopy ontology
-  pattern: ^\d{7}$
-  prefix: cryoem
-  total: 111
-  version: '2021-03-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ctenophore Ontology
-  pattern: ^\d{7}$
-  prefix: cteno
-  total: 151
-  version: '2016-10-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Cardiovascular Disease Ontology
-  pattern: ^\d{7}$
-  prefix: cvdo
-  total: 290
-  version: '2020-03-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Dictyostelium discoideum anatomy
-  pattern: ^\d{7}$
-  prefix: ddanat
-  total: 130
-  version: '2020-04-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Dictyostelium discoideum phenotype ontology
-  pattern: ^\d{7}$
-  prefix: ddpheno
-  total: 961
-  version: '2020-06-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: DepMap Cell Lines
-  pattern: ^ACH-\d+$
-  prefix: depmap
-  total: 1814
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Disease Drivers Ontology
-  pattern: ^\d+$
-  prefix: disdriv
-  total: 7
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Disease Class
-  pattern: ^\d{7}$
-  prefix: diseaseclass
-  total: 202
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: DrugBank
-  pattern: ^DB\d{5}$
-  prefix: drugbank
-  total: 14594
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Drug Central
-  pattern: ^\d+$
-  prefix: drugcentral
-  total: 4098
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: An ontology of core ecological entities
-  pattern: ^\d+$
-  prefix: ecocore
-  total: 182
-  version: '2022-03-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Environmental conditions, treatments and exposures ontology
-  pattern: ^\d{7}$
-  prefix: ecto
-  total: 2826
-  version: '2022-08-12'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Human developmental anatomy, timed version
-  pattern: ^\d+$
-  prefix: ehda
-  total: 8340
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mouse gross anatomy and development, timed
-  pattern: ^\d+$
-  prefix: emap
-  total: 19444
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Environment Ontology
-  pattern: ^\d{7,8}$
-  prefix: envo
-  total: 3360
-  version: '2021-05-14'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Exposure ontology
-  pattern: ^\d{7}$
-  prefix: exo
-  total: 150
-  version: '2022-06-29'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Fungal gross anatomy
-  pattern: ^\d{7}$
-  prefix: fao
-  total: 112
-  version: '2020-05-07'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: FlyBase Controlled Vocabulary
-  pattern: ^\d{7}$
-  prefix: fbcv
-  total: 1132
-  version: '2022-06-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Drosophila development
-  pattern: ^\d{8}$
-  prefix: fbdv
-  total: 200
-  version: '2022-06-08'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Physico-chemical methods and properties
-  pattern: ^\d{7}$
-  prefix: fix
-  total: 1163
-  version: '2020-04-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Flora Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: flopo
-  total: 23226
-  version: '2019-09-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Foundational Model of Anatomy
-  pattern: ^\d+$
-  prefix: fma
-  total: 78977
-  version: '2020-04-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: FuTRES Ontology of Vertebrate Traits
-  pattern: ^\d{7}$
-  prefix: fovt
-  total: 313
-  version: '2021-11-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Fission Yeast Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: fypo
-  total: 7674
-  version: '2022-07-14'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Genomics Cohorts Knowledge Ontology
-  pattern: ^\d{7}$
-  prefix: gecko
-  total: 67
-  version: '2021-01-18'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Genotype Ontology
-  pattern: ^\d{7}$
-  prefix: geno
-  total: 221
-  version: '2022-03-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Glycan Naming and Subsumption Ontology
-  pattern: ^(\d{8}|(\w+\d+\w+))$
-  prefix: gno
-  total: 104602
-  version: 1.10.0
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Gene Ontology
-  pattern: ^\d{7}$
-  prefix: go
-  total: 43558
-  version: '2022-07-01'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: GO Chemicals
-  pattern: ^\d+$
-  prefix: goche
-  total: 75
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Gender, Sex, and Sexual Orientation Ontology
-  pattern: ^\d{6}$
-  prefix: gsso
-  total: 9455
-  version: 2.0.5
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Hymenoptera Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: hao
-  total: 2465
-  version: '2021-03-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Homologous Organ Groups
-  pattern: ^\d{7}$
-  prefix: hog
-  total: 1176
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Homology Ontology
-  pattern: ^\d{7}$
-  prefix: hom
-  total: 65
-  version: '2015-01-07'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Human Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: hp
-  total: 16614
-  version: '2022-06-11'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Human Developmental Stages
-  pattern: ^\d{7}$
-  prefix: hsapdv
-  total: 243
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ion Channel Electrophysiology Ontology
-  pattern: ^\d{7}$
-  prefix: icepo
-  total: 51
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Interaction Network Ontology
-  pattern: ^\d{7}$
-  prefix: ino
-  total: 166
-  version: 1.1.13
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Integrated Taxonomic Information System
-  pattern: ^\d+$
-  prefix: itis
-  total: 901157
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Livestock Breed Ontology
-  pattern: ^\d{7}$
-  prefix: lbo
-  total: 1108
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Lepidoptera Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: lepao
-  total: 132
-  version: '2021-11-20'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Livestock Product Trait Ontology
-  pattern: ^\d+$
-  prefix: lpt
-  total: 481
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mathematical modeling ontology
-  pattern: ^\d{7}$
-  prefix: mamo
-  total: 98
-  version: '2020-08-24'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Medical Action Ontology
-  pattern: ^\d{7}$
-  prefix: maxo
-  total: 1365
-  version: '2022-06-23'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Microbial Conditions Ontology
-  pattern: ^\d+$
-  prefix: mco
-  total: 839
-  version: '2019-05-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Medical Subject Headings
-  pattern: ^(C|D)\d{6,9}$
-  prefix: mesh
-  total: 348973
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mental Functioning Ontology
-  pattern: ^\d{7}$
-  prefix: mf
-  total: 9
-  version: '2021-11-17'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mental Disease Ontology
-  pattern: ^\d{7}$
-  prefix: mfomd
-  total: 6
-  version: '2020-04-26'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mouse Genome Informatics
-  pattern: ^\d+$
-  prefix: mgi
-  total: 674296
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Molecular Interactions Controlled Vocabulary
-  pattern: ^\d{4}$
-  prefix: mi
-  total: 1389
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: miRBase pre-miRNA
-  pattern: ^MI\d{7}$
-  prefix: mirbase
-  total: 38589
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mosquito insecticide resistance
-  pattern: ^\d{8}$
-  prefix: miro
-  total: 4340
-  version: '2014-05-14'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Measurement method ontology
-  pattern: ^\d{7}$
-  prefix: mmo
-  total: 695
-  version: '2019-03-27'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mouse Developmental Stages
-  pattern: ^\d{7}$
-  prefix: mmusdv
-  total: 105
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Protein modification
-  pattern: ^\d{5}$
-  prefix: mod
-  total: 1978
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Molecular Process Ontology
-  pattern: ^\d{7}$
-  prefix: mop
-  total: 3582
-  version: '2022-02-01'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mammalian Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: mp
-  total: 13569
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mouse pathology ontology
-  pattern: ^\d+$
-  prefix: mpath
-  total: 841
-  version: '2020-05-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: MHC Restriction Ontology
-  pattern: ^\d{7}$
-  prefix: mro
-  total: 51242
-  version: '2022-06-17'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mass spectrometry ontology
-  pattern: ^\d{7}$
-  prefix: ms
-  total: 2937
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Neuro Behavior Ontology
-  pattern: ^\d{7}$
-  prefix: nbo
-  total: 928
-  version: '2021-02-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: NCI Thesaurus
-  pattern: ^C\d+$
-  prefix: ncit
-  total: 169223
-  version: 22.03d
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Non-Coding RNA Ontology
-  pattern: ^\d{7}$
-  prefix: ncro
-  total: 2543
-  version: '2015-12-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: A nomenclatural ontology for biological names
-  pattern: ^\d{7}$
-  prefix: nomen
-  total: 260
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology of Arthropod Circulatory Systems
-  pattern: ^\d{7}$
-  prefix: oarcs
-  total: 307
-  version: '2019-04-18'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology for General Medical Science
-  pattern: ^\d{7}$
-  prefix: ogms
-  total: 117
-  version: '2021-08-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Medaka Developmental Stages
-  pattern: ^\d{7}$
-  prefix: olatdv
-  total: 47
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology for MicroRNA Target
-  pattern: ^\d{7}$
-  prefix: omit
-  total: 89
-  version: '2019-06-07'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology of Microbial Phenotypes
-  pattern: ^\d{7}$
-  prefix: omp
-  total: 2006
-  version: '2022-08-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology of Medically Related Social Entities
-  pattern: ^\d{8}$
-  prefix: omrse
-  total: 230
-  version: '2022-04-06'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology for Nutritional Epidemiology
-  pattern: ^\d{7}$
-  prefix: one
-  total: 69
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Ontology for Avida digital evolution platform
-  pattern: ^\d{8}$
-  prefix: ontoavida
-  total: 670
-  version: '2022-03-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: PathBank
-  pattern: ^(SMP|PW)\d+$
-  prefix: pathbank
-  total: 110242
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Platynereis Developmental Stages
-  pattern: ^\d{7}$
-  prefix: pdumdv
-  total: 21
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Plant Experimental Conditions Ontology
-  pattern: ^\d{7}$
-  prefix: peco
-  total: 550
-  version: '2020-08-21'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: PSI Extended File Format
-  pattern: ^\d{7}$
-  prefix: peff
-  total: 51
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Pfam
-  pattern: ^PF\d{5}$
-  prefix: pfam
-  total: 19632
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Pathogen Host Interaction Phenotype Ontology
-  pattern: ^\d{7}$
-  prefix: phipo
-  total: 920
-  version: '2021-07-14'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Planarian Anatomy and Schmidtea mediterranean Developmental Stage Ontology
-  pattern: ^\d{7}$
-  prefix: plana
-  total: 646
-  version: '2022-03-02'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Planarian Phenotype Ontology
-  pattern: ^\d+$
-  prefix: planp
-  total: 673
-  version: '2020-03-28'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Plant Ontology
-  pattern: ^\d+$
-  prefix: po
-  total: 1653
-  version: '2021-08-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Porifera Ontology
-  pattern: ^\d{7}$
-  prefix: poro
-  total: 607
-  version: '2016-10-06'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Performance Summary Display Ontology
-  pattern: ^\d{7}$
-  prefix: psdo
-  total: 74
-  version: 1.0.0
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Plant Stress Ontology
-  pattern: ^\d{7}$
-  prefix: pso
-  total: 4
-  version: '2020-05-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Pathway ontology
-  pattern: ^\d{7}$
-  prefix: pw
-  total: 2600
-  version: '2019-10-23'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Reactome
-  pattern: ^R-[A-Z]{3}-\d+(-\d+)?(\.\d+)?$
-  prefix: reactome
-  total: 21926
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Physico-chemical process
-  pattern: ^\d{7}$
-  prefix: rex
-  total: 552
-  version: '2017-11-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Rhea, the Annotated Reactions Database
-  pattern: ^\d{5}$
-  prefix: rhea
-  total: 59520
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Relation Ontology
-  pattern: ^\d{7}$
-  prefix: ro
-  total: 5
-  version: '2022-05-23'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Rat Strain Ontology
-  pattern: ^\d{7}$
-  prefix: rs
-  total: 5020
-  version: '2019-12-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Name Reaction Ontology
-  pattern: ^\d{7}$
-  prefix: rxno
-  total: 653
-  version: '2021-12-16'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Systems Biology Ontology
-  pattern: ^\d{7}$
-  prefix: sbo
-  total: 694
-  version: '2021-08-28'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Sickle Cell Disease Ontology
-  pattern: ^\d{7}$
-  prefix: scdo
-  total: 1266
-  version: '2021-04-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Selventa Chemicals
-  pattern: ^A\d{4}$
-  prefix: schem
-  total: 2941
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Selventa Complexes
-  pattern: ^C\d{4}$
-  prefix: scomp
-  total: 135
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Selventa Diseases
-  pattern: ^D\d{4}$
-  prefix: sdis
-  total: 441
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Selventa Families
-  pattern: ^F\d{4}$
-  prefix: sfam
-  total: 247
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Social Insect Behavior Ontology
-  pattern: ^\d{7}$
-  prefix: sibo
-  total: 481
-  version: '2015-06-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Semanticscience Integrated Ontology
-  pattern: ^\d{6}$
-  prefix: sio
-  total: 1572
-  version: '1.53'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Sequence types and features ontology
-  pattern: ^\d{7}$
-  prefix: so
-  total: 2386
-  version: '2021-11-22'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Software ontology
-  pattern: ^\d{7}$
-  prefix: swo
-  total: 13
-  version: '1.7'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Tick Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: tads
-  total: 628
-  version: '2015-08-20'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Teleost Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: tao
-  total: 2951
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Taxonomic rank vocabulary
-  pattern: ^\d{7}$
-  prefix: taxrank
-  total: 61
-  version: '2016-04-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Mosquito gross anatomy ontology
-  pattern: ^\d{7}$
-  prefix: tgma
-  total: 1864
-  version: '2013-06-03'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Plant Trait Ontology
-  pattern: ^\d{7}$
-  prefix: to
-  total: 1606
-  version: '2022-04-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Pathogen Transmission Ontology
-  pattern: ^\d{7}$
-  prefix: trans
-  total: 32
-  version: '2020-08-04'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Teleost taxonomy ontology
-  pattern: ^\d+$
-  prefix: tto
-  total: 38640
-  version: '2018-03-26'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Uber Anatomy Ontology
-  pattern: ^\d+$
-  prefix: uberon
-  total: 14307
-  version: '2022-08-19'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Unipathway
-  pattern: ^(UCR|UCY|UER|ULS|UPA|UPC|UPX)\d{5}$
-  prefix: upa
-  total: 4659
-  version: '2018-12-12'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Variation Ontology
-  pattern: ^\d+$
-  prefix: vario
-  total: 495
-  version: '2018-11-09'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Vertebrate Homologous Organ Group Ontology
-  pattern: ^\d{7}$
-  prefix: vhog
-  total: 1185
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Vertebrate trait ontology
-  pattern: ^\d{7}$
-  prefix: vt
-  total: 3677
-  version: null
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Vertebrate Taxonomy Ontology
-  pattern: ^\d{7}$
-  prefix: vto
-  total: 107005
-  version: '2020-11-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: C. elegans Gross Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: wbbt
-  total: 6763
-  version: '2022-06-13'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: C. elegans development ontology
-  pattern: ^\d{7}$
-  prefix: wbls
-  total: 774
-  version: '2022-06-21'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: C. elegans phenotype
-  pattern: ^\d{7}$
-  prefix: wbphenotype
-  total: 2633
-  version: '2022-06-21'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Xenopus Anatomy Ontology
-  pattern: ^\d{7}$
-  prefix: xao
-  total: 1720
-  version: '2021-03-04'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Experimental condition ontology
-  pattern: ^\d{7}$
-  prefix: xco
-  total: 675
-  version: '2019-12-18'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: HUPO-PSI cross-linking and derivatization reagents controlled vocabulary
-  pattern: ^\d{5}$
-  prefix: xlmod
-  total: 1101
-  version: '2019-10-28'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Xenopus Phenotype Ontology
-  pattern: ^\d+$
-  prefix: xpo
-  total: 20061
-  version: '2021-03-05'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Zebrafish Experimental Conditions Ontology
-  pattern: ^\d{7}$
-  prefix: zeco
-  total: 161
-  version: '2022-02-14'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Zebrafish anatomy and development ontology
-  pattern: ^\d{7}$
-  prefix: zfa
-  total: 3079
-  version: '2022-03-15'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Zebrafish developmental stages ontology
-  pattern: ^\d{7}$
-  prefix: zfs
-  total: 54
-  version: '2020-03-10'
-- invalid: 0
-  invalid_percent: 0.0
-  invalid_sample: []
-  name: Zebrafish Phenotype Ontology
-  pattern: ^\d+$
-  prefix: zp
-  total: 36602
-  version: '2021-12-12'
 - invalid: 34
   invalid_percent: 0.0
   invalid_sample:
-  - identifier: subgenus
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subgenus
-    name: subgenus
-  - identifier: species
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species
-    name: species
-  - identifier: subphylum
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subphylum
-    name: subphylum
-  - identifier: superphylum
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=superphylum
-    name: superphylum
-  - identifier: superorder
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=superorder
-    name: superorder
-  - identifier: subsection
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subsection
-    name: subsection
+  - identifier: class
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=class
+    name: class
+  - identifier: cohort
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=cohort
+    name: cohort
+  - identifier: family
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=family
+    name: family
+  - identifier: forma
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=forma
+    name: forma
+  - identifier: genus
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=genus
+    name: genus
   - identifier: infraclass
     link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=infraclass
     name: infraclass
   - identifier: infraorder
     link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=infraorder
     name: infraorder
-  - identifier: taxonomic_rank
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=taxonomic_rank
-    name: taxonomic rank
-  - identifier: species_subgroup
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species_subgroup
-    name: species subgroup
-  - identifier: superfamily
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=superfamily
-    name: superfamily
-  - identifier: subtribe
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subtribe
-    name: subtribe
+  - identifier: kingdom
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=kingdom
+    name: kingdom
   - identifier: order
     link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=order
     name: order
   - identifier: parvorder
     link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=parvorder
     name: parvorder
-  - identifier: subfamily
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subfamily
-    name: subfamily
-  - identifier: varietas
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=varietas
-    name: varietas
-  - identifier: class
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=class
-    name: class
-  - identifier: tribe
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=tribe
-    name: tribe
-  - identifier: subkingdom
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subkingdom
-    name: subkingdom
-  - identifier: species_group
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species_group
-    name: species group
-  - identifier: forma
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=forma
-    name: forma
-  - identifier: section
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=section
-    name: section
-  - identifier: subclass
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subclass
-    name: subclass
   - identifier: phylum
     link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=phylum
     name: phylum
-  - identifier: superkingdom
-    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=superkingdom
-    name: superkingdom
+  - identifier: section
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=section
+    name: section
+  - identifier: series
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=series
+    name: series
+  - identifier: species
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species
+    name: species
+  - identifier: species_group
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species_group
+    name: species group
+  - identifier: species_subgroup
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=species_subgroup
+    name: species subgroup
+  - identifier: subclass
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subclass
+    name: subclass
+  - identifier: subcohort
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subcohort
+    name: subcohort
+  - identifier: subfamily
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subfamily
+    name: subfamily
+  - identifier: subgenus
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subgenus
+    name: subgenus
+  - identifier: subkingdom
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subkingdom
+    name: subkingdom
+  - identifier: suborder
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=suborder
+    name: suborder
+  - identifier: subphylum
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subphylum
+    name: subphylum
+  - identifier: subsection
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subsection
+    name: subsection
+  - identifier: subspecies
+    link: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=subspecies
+    name: subspecies
   name: NCBI Taxonomy
   pattern: ^\d+$
   prefix: ncbitaxon
   total: 2438855
   version: '2022-08-18'
 metadata:
-  bioregistry_version: 0.5.93-dev
-  date: '2022-09-10T10:53:08.086619'
+  bioregistry_version: 0.5.94-dev
+  date: '2022-09-10T19:18:07.769738'
   pyobo_version: 0.8.3-dev-4138dbe9

@@ -22,47 +22,63 @@ DATA.mkdir(parents=True, exist_ok=True)
 RESULTS = HERE.joinpath("results")
 RESULTS.mkdir(parents=True, exist_ok=True)
 
-SKIP = {"gaz", "ncbigene", "pubchem.compound", "pubchem.substance", "umls", "antibodyregistry", "ncit"}
+SKIP = {
+    "gaz",
+    "ncbigene",
+    "pubchem.compound",
+    "pubchem.substance",
+    "umls",
+    "antibodyregistry",
+    "ncit",
+    "mesh",
+}
 SKIP_PREFIX = {"kegg"}
 COLUMNS = ["prefix", "invalid", "total", "percent_invalid"]
 DICT_COLS = ["identifier", "name", "link"]
+
 
 @click.command()
 @verbose_option
 def main():
     """Build the regex report."""
-    data = []
+    results = []
     prefixes = [
         prefix
         for prefix, resource in bioregistry.read_registry().items()
         if (
-            resource.get_pattern() is not None 
+            resource.get_pattern() is not None
             and prefix not in SKIP
             and not any(prefix.startswith(p) for p in SKIP_PREFIX)
         )
     ]
-    it = tqdm(
-        prefixes, desc="Calculating consistencies", unit="prefix"
-    )
+    it = tqdm(prefixes, desc="Calculating consistencies", unit="prefix")
     for prefix in it:
         it.set_postfix(prefix=prefix)
         with logging_redirect_tqdm():
             invalid, total = calculate(prefix)
-        if invalid is None or total is None:
+        path = RESULTS.joinpath(prefix).with_suffix(".tsv")
+        if not invalid or not total:
+            if path.is_file():
+                path.unlink()
             continue
-
-        if invalid:
-            invalid_df = pd.DataFrame(invalid, columns=["identifier", "name", "link"])
-            invalid_df.to_csv(RESULTS.joinpath(prefix).with_suffix(".tsv"), sep="\t", index=False)
-
-        data.append((prefix, invalid, total))
+        invalid_df = pd.DataFrame(invalid, columns=["identifier", "name", "link"])
+        invalid_df.to_csv(path, sep="\t", index=False)
+        results.append((prefix, invalid, total))
 
     # sort by invalid (desc) then prefix (asc)
-    data = sorted(data, key=lambda p: (-len(p[1]), p[0]))
+    results = sorted(results, key=lambda p: (-len(p[1]), p[0]))
 
     df = pd.DataFrame(
         columns=COLUMNS,
-        data=[(prefix, len(invalid), total, len(invalid) / total if total > 0 else None) for prefix, invalid, total in data],
+        data=[
+            (
+                prefix,
+                len(invalid),
+                total,
+                len(invalid) / total if total > 0 else None,
+            )
+            for prefix, invalid, total in results
+        ],
     )
     df.to_csv(DATA / "report_table.tsv", sep="\t", index=False)
 
@@ -78,7 +94,7 @@ def main():
                 total=total,
                 invalid_sample=[dict(zip(DICT_COLS, row)) for row in invalid[:25]],
             )
-            for prefix, invalid, total in data
+            for prefix, invalid, total in results
         ],
         key=lambda entry: (-entry["invalid_percent"], entry["invalid"]),
     )
@@ -102,7 +118,7 @@ def calculate(
 ) -> Union[Tuple[List[Mapping[str, Any]], int], Tuple[None, None]]:
     """Calculate the inconsistency for the given prefix."""
     resource = bioregistry.get_resource(prefix)
-    pattern = resource.get_pattern()
+    pattern = resource.get_pattern_re()
     if not pattern:
         return None, None
     try:
@@ -112,14 +128,16 @@ def calculate(
 
     invalid = []
     for identifier in tqdm(
-        identifiers, leave=False, unit_scale=True, unit="identifier"
+        identifiers, leave=False, unit_scale=True, unit="identifier", desc=f"Validating {prefix}"
     ):
-        if not resource.is_valid_identifier(identifier):
-            invalid.append((
-                identifier,
-                pyobo.get_name(prefix, identifier),
-                bioregistry.get_link(prefix, identifier),
-            ))
+        if not pattern.fullmatch(identifier):
+            invalid.append(
+                (
+                    identifier,
+                    pyobo.get_name(prefix, identifier),
+                    bioregistry.get_iri(prefix, identifier),
+                )
+            )
 
     n_identifiers = len(identifiers)
     if n_identifiers == 0:
