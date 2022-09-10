@@ -19,28 +19,42 @@ from tqdm.contrib.logging import logging_redirect_tqdm
 HERE = pathlib.Path(__file__).parent.resolve()
 DATA = HERE.joinpath("_data")
 DATA.mkdir(parents=True, exist_ok=True)
+RESULTS = HERE.joinpath("results")
+RESULTS.mkdir(parents=True, exist_ok=True)
 
-SKIP = {"gaz", "ncbigene", "pubchem.compound", "pubchem.substance"}
-SKIP_PREFIX = {"kegg", "umls"}
-COLUMNS = ["prefix", "invalid", "total"]
-
+SKIP = {"gaz", "ncbigene", "pubchem.compound", "pubchem.substance", "umls", "antibodyregistry", "ncit"}
+SKIP_PREFIX = {"kegg"}
+COLUMNS = ["prefix", "invalid", "total", "percent_invalid"]
+DICT_COLS = ["identifier", "name", "link"]
 
 @click.command()
 @verbose_option
 def main():
     """Build the regex report."""
     data = []
+    prefixes = [
+        prefix
+        for prefix, resource in bioregistry.read_registry().items()
+        if (
+            resource.get_pattern() is not None 
+            and prefix not in SKIP
+            and not any(prefix.startswith(p) for p in SKIP_PREFIX)
+        )
+    ]
     it = tqdm(
-        bioregistry.read_registry(), desc="Calculating consistencies", unit="prefix"
+        prefixes, desc="Calculating consistencies", unit="prefix"
     )
     for prefix in it:
         it.set_postfix(prefix=prefix)
-        if prefix in SKIP or any(prefix.startswith(p) for p in SKIP_PREFIX):
-            continue
         with logging_redirect_tqdm():
             invalid, total = calculate(prefix)
         if invalid is None or total is None:
             continue
+
+        if invalid:
+            invalid_df = pd.DataFrame(invalid, columns=["identifier", "name", "link"])
+            invalid_df.to_csv(RESULTS.joinpath(prefix).with_suffix(".tsv"), sep="\t", index=False)
+
         data.append((prefix, invalid, total))
 
     # sort by invalid (desc) then prefix (asc)
@@ -48,7 +62,7 @@ def main():
 
     df = pd.DataFrame(
         columns=COLUMNS,
-        data=[(prefix, len(invalid), total) for prefix, invalid, total in data],
+        data=[(prefix, len(invalid), total, len(invalid) / total if total > 0 else None) for prefix, invalid, total in data],
     )
     df.to_csv(DATA / "report_table.tsv", sep="\t", index=False)
 
@@ -62,7 +76,7 @@ def main():
                 invalid=len(invalid),
                 invalid_percent=round(100 * len(invalid) / total, 2),
                 total=total,
-                invalid_sample=invalid[:75],
+                invalid_sample=[dict(zip(DICT_COLS, row)) for row in invalid[:25]],
             )
             for prefix, invalid, total in data
         ],
@@ -87,7 +101,8 @@ def calculate(
     prefix: str,
 ) -> Union[Tuple[List[Mapping[str, Any]], int], Tuple[None, None]]:
     """Calculate the inconsistency for the given prefix."""
-    pattern = bioregistry.get_pattern_re(prefix)
+    resource = bioregistry.get_resource(prefix)
+    pattern = resource.get_pattern()
     if not pattern:
         return None, None
     try:
@@ -99,14 +114,12 @@ def calculate(
     for identifier in tqdm(
         identifiers, leave=False, unit_scale=True, unit="identifier"
     ):
-        if not bioregistry.is_known_identifier(prefix, identifier):
-            invalid.append(
-                {
-                    "identifier": identifier,
-                    "name": pyobo.get_name(prefix, identifier),
-                    "link": bioregistry.get_link(prefix, identifier),
-                }
-            )
+        if not resource.is_valid_identifier(identifier):
+            invalid.append((
+                identifier,
+                pyobo.get_name(prefix, identifier),
+                bioregistry.get_link(prefix, identifier),
+            ))
 
     n_identifiers = len(identifiers)
     if n_identifiers == 0:
@@ -116,12 +129,14 @@ def calculate(
     n_invalid = len(invalid)
     if n_invalid == 0:
         echo(f"{prefix} consistent pattern {pattern}", fg="green")
+    elif n_invalid == len(identifiers):
+        echo(f"{prefix} fully inconsistent pattern {pattern}", fg="red")
     else:
         echo(
             f"{prefix} had {n_invalid} ({n_invalid / n_identifiers:.2%}) invalid",
             fg="yellow",
         )
-    return invalid, len(identifiers)
+    return sorted(invalid), len(identifiers)
 
 
 def echo(*args, **kwargs) -> None:
