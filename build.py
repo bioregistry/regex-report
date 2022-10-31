@@ -39,7 +39,8 @@ DICT_COLS = ["identifier", "name", "link"]
 
 @click.command()
 @verbose_option
-def main():
+@click.option("--single")
+def main(single: str):
     """Build the regex report."""
     results = []
     prefixes = [
@@ -51,6 +52,8 @@ def main():
             and not any(prefix.startswith(p) for p in SKIP_PREFIX)
         )
     ]
+    if single:
+        prefixes = [single]
     it = tqdm(prefixes, desc="Calculating consistencies", unit="prefix")
     for prefix in it:
         it.set_postfix(prefix=prefix)
@@ -64,6 +67,9 @@ def main():
         invalid_df = pd.DataFrame(invalid, columns=["identifier", "name", "link"])
         invalid_df.to_csv(path, sep="\t", index=False)
         results.append((prefix, invalid, total))
+
+    if single:
+        return
 
     # sort by invalid (desc) then prefix (asc)
     results = sorted(results, key=lambda p: (-len(p[1]), p[0]))
@@ -128,7 +134,11 @@ def calculate(
 
     invalid = []
     for identifier in tqdm(
-        identifiers, leave=False, unit_scale=True, unit="identifier", desc=f"Validating {prefix}"
+        identifiers,
+        leave=False,
+        unit_scale=True,
+        unit="identifier",
+        desc=f"Validating {prefix}",
     ):
         if not pattern.fullmatch(identifier):
             invalid.append(

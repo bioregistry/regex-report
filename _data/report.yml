@@ -82,90 +82,6 @@ data:
   prefix: pr
   total: 226731
   version: '67.0'
-- invalid: 296
-  invalid_percent: 12.62
-  invalid_sample:
-  - identifier: A00-A09
-    link: https://icd.who.int/browse10/2019/en#/A00-A09
-    name: Intestinal infectious diseases
-  - identifier: A15-A19
-    link: https://icd.who.int/browse10/2019/en#/A15-A19
-    name: Tuberculosis
-  - identifier: A20-A28
-    link: https://icd.who.int/browse10/2019/en#/A20-A28
-    name: Certain zoonotic bacterial diseases
-  - identifier: A30-A49
-    link: https://icd.who.int/browse10/2019/en#/A30-A49
-    name: Other bacterial diseases
-  - identifier: A50-A64
-    link: https://icd.who.int/browse10/2019/en#/A50-A64
-    name: Infections with a predominantly sexual mode of transmission
-  - identifier: A65-A69
-    link: https://icd.who.int/browse10/2019/en#/A65-A69
-    name: Other spirochaetal diseases
-  - identifier: A70-A74
-    link: https://icd.who.int/browse10/2019/en#/A70-A74
-    name: Other diseases caused by chlamydiae
-  - identifier: A75-A79
-    link: https://icd.who.int/browse10/2019/en#/A75-A79
-    name: Rickettsioses
-  - identifier: A80-A89
-    link: https://icd.who.int/browse10/2019/en#/A80-A89
-    name: Viral infections of the central nervous system
-  - identifier: A92-A99
-    link: https://icd.who.int/browse10/2019/en#/A92-A99
-    name: Arthropod-borne viral fevers and viral haemorrhagic fevers
-  - identifier: B00-B09
-    link: https://icd.who.int/browse10/2019/en#/B00-B09
-    name: Viral infections characterized by skin and mucous membrane lesions
-  - identifier: B15-B19
-    link: https://icd.who.int/browse10/2019/en#/B15-B19
-    name: Viral hepatitis
-  - identifier: B20-B24
-    link: https://icd.who.int/browse10/2019/en#/B20-B24
-    name: Human immunodeficiency virus [HIV] disease
-  - identifier: B25-B34
-    link: https://icd.who.int/browse10/2019/en#/B25-B34
-    name: Other viral diseases
-  - identifier: B35-B49
-    link: https://icd.who.int/browse10/2019/en#/B35-B49
-    name: Mycoses
-  - identifier: B50-B64
-    link: https://icd.who.int/browse10/2019/en#/B50-B64
-    name: Protozoal diseases
-  - identifier: B65-B83
-    link: https://icd.who.int/browse10/2019/en#/B65-B83
-    name: Helminthiases
-  - identifier: B85-B89
-    link: https://icd.who.int/browse10/2019/en#/B85-B89
-    name: Pediculosis, acariasis and other infestations
-  - identifier: B90-B94
-    link: https://icd.who.int/browse10/2019/en#/B90-B94
-    name: Sequelae of infectious and parasitic diseases
-  - identifier: B95-B98
-    link: https://icd.who.int/browse10/2019/en#/B95-B98
-    name: Bacterial, viral and other infectious agents
-  - identifier: B99-B99
-    link: https://icd.who.int/browse10/2019/en#/B99-B99
-    name: Other infectious diseases
-  - identifier: C00-C14
-    link: https://icd.who.int/browse10/2019/en#/C00-C14
-    name: Malignant neoplasms of lip, oral cavity and pharynx
-  - identifier: C00-C75
-    link: https://icd.who.int/browse10/2019/en#/C00-C75
-    name: Malignant neoplasms, stated or presumed to be primary, of specified sites,
-      except of lymphoid, haematopoietic and related tissue
-  - identifier: C00-C97
-    link: https://icd.who.int/browse10/2019/en#/C00-C97
-    name: Malignant neoplasms
-  - identifier: C15-C26
-    link: https://icd.who.int/browse10/2019/en#/C15-C26
-    name: Malignant neoplasms of digestive organs
-  name: International Classification of Diseases, 10th Revision
-  pattern: ^[A-Z]\d+(\.[-\d+])?$
-  prefix: icd10
-  total: 2345
-  version: null
 - invalid: 1
   invalid_percent: 0.75
   invalid_sample:
@@ -214,53 +130,6 @@ data:
   prefix: eco
   total: 2007
   version: '2022-08-05'
-- invalid: 13
-  invalid_percent: 0.07
-  invalid_sample:
-  - identifier: '0000336'
-    link: https://flybase.org/reports/0000336
-    name: pseudogene
-  - identifier: '0001217'
-    link: https://flybase.org/reports/0001217
-    name: protein_coding_gene
-  - identifier: '0001263'
-    link: https://flybase.org/reports/0001263
-    name: ncRNA_gene
-  - identifier: '0001265'
-    link: https://flybase.org/reports/0001265
-    name: miRNA_gene
-  - identifier: '0001267'
-    link: https://flybase.org/reports/0001267
-    name: snoRNA_gene
-  - identifier: 0001268
-    link: https://flybase.org/reports/0001268
-    name: snRNA_gene
-  - identifier: 0001269
-    link: https://flybase.org/reports/0001269
-    name: SRP_RNA_gene
-  - identifier: '0001272'
-    link: https://flybase.org/reports/0001272
-    name: tRNA_gene
-  - identifier: '0001637'
-    link: https://flybase.org/reports/0001637
-    name: rRNA_gene
-  - identifier: 0001639
-    link: https://flybase.org/reports/0001639
-    name: RNase_P_RNA_gene
-  - identifier: '0001640'
-    link: https://flybase.org/reports/0001640
-    name: RNase_MRP_RNA_gene
-  - identifier: '0002127'
-    link: https://flybase.org/reports/0002127
-    name: lncRNA_gene
-  - identifier: 0002182
-    link: https://flybase.org/reports/0002182
-    name: antisense_lncRNA_gene
-  name: FlyBase Gene
-  pattern: ^FB\w{2}\d{7}$
-  prefix: flybase
-  total: 17908
-  version: null
 - invalid: 1
   invalid_percent: 0.04
   invalid_sample:
@@ -381,6 +250,6 @@ data:
   total: 2438855
   version: '2022-08-18'
 metadata:
-  bioregistry_version: 0.5.94-dev
-  date: '2022-09-10T19:18:07.769738'
-  pyobo_version: 0.8.3-dev-4138dbe9
+  bioregistry_version: 0.6.1
+  date: '2022-10-31T13:56:28.564745'
+  pyobo_version: 0.8.3-7822394f
